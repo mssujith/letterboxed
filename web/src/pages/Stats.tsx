@@ -46,9 +46,12 @@ export default function Stats() {
 
   const timeline = useMemo(() => watchesOverTime(f, wy), [f, wy]);
   const decades = useMemo(() => byReleaseDecade(f), [f]);
+  const langKey = (x: Film) => (x.primaryLanguage ? [x.primaryLanguage] : x.languages);
+  const countryKey = (x: Film) => (x.primaryCountry ? [x.primaryCountry] : x.countries);
+
   const genres = useMemo(() => countBy(f, (x) => x.genres, 12), [f]);
-  const languages = useMemo(() => countBy(f, (x) => x.languages, 12), [f]);
-  const countries = useMemo(() => countBy(f, (x) => x.countries, 12), [f]);
+  const languages = useMemo(() => countBy(f, langKey, 12), [f]);
+  const countries = useMemo(() => countBy(f, countryKey, 12), [f]);
   const keywords = useMemo(() => countBy(f, (x) => x.keywords, 25), [f]);
   const directors = useMemo(() => countBy(f, (x) => x.directors, 12), [f]);
   const actors = useMemo(() => countBy(f, (x) => x.cast, 12), [f]);
@@ -96,13 +99,13 @@ export default function Stats() {
           <HBar data={genres} onSelect={openField("Genre", (x) => x.genres)} />
         </Card>
         <Card title="Languages">
-          <HBar data={languages} onSelect={openField("Language", (x) => x.languages)} />
+          <HBar data={languages} onSelect={openField("Language", langKey)} />
         </Card>
       </div>
 
       <div className="grid" style={{ marginTop: 16 }}>
         <Card title="Countries">
-          <HBar data={countries} onSelect={openField("Country", (x) => x.countries)} />
+          <HBar data={countries} onSelect={openField("Country", countryKey)} />
         </Card>
       </div>
 

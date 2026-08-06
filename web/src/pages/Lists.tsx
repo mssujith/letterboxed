@@ -1,6 +1,5 @@
 import { useMemo, useState } from "react";
 import { useData } from "../context/DataContext";
-import FilterBar from "../components/FilterBar";
 import { Poster } from "../components/PosterCard";
 import { computeProgress, watchedTmdbIds, type ListProgress } from "../lib/lists";
 import { pct } from "../lib/format";
@@ -88,8 +87,8 @@ function ListSection({ progress }: { progress: ListProgress }) {
 }
 
 export default function Lists() {
-  const { filteredFilms, lists } = useData();
-  const watched = useMemo(() => watchedTmdbIds(filteredFilms), [filteredFilms]);
+  const { films, lists } = useData();
+  const watched = useMemo(() => watchedTmdbIds(films), [films]);
   const progresses = useMemo(
     () =>
       lists
@@ -100,10 +99,9 @@ export default function Lists() {
 
   return (
     <div>
-      <FilterBar showSecondary={false} />
       <p className="muted small">
-        Progress is computed against your currently filtered films (change the year filter above to
-        see per-year progress). Green outline = seen.
+        Progress counts every film you've ever watched (matched to TMDB), regardless of filters.
+        Green outline = seen.
       </p>
       {progresses.map((p) => (
         <ListSection key={p.list.id} progress={p} />

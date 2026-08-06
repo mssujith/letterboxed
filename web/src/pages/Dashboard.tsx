@@ -16,14 +16,15 @@ function fmtDate(d: string | null): string {
 }
 
 export default function Dashboard() {
-  const { filteredFilms, filters, lists, diary } = useData();
+  const { films, filteredFilms, filters, lists, diary } = useData();
   const [drill, setDrill] = useState<Drill | null>(null);
 
   const h = useMemo(() => headline(filteredFilms, filters.watchedYear), [filteredFilms, filters.watchedYear]);
   const ratings = useMemo(() => ratingDistribution(filteredFilms), [filteredFilms]);
   const daily = useMemo(() => dailyCountsFromDiary(diary, filters.watchedYear), [diary, filters.watchedYear]);
   const activity = useMemo(() => activityStats(daily), [daily]);
-  const watched = useMemo(() => watchedTmdbIds(filteredFilms), [filteredFilms]);
+  // List progress reflects everything you've ever watched, not the active filters.
+  const watched = useMemo(() => watchedTmdbIds(films), [films]);
   const progresses = useMemo(
     () => lists.map((l) => computeProgress(l, watched)),
     [lists, watched]

@@ -55,6 +55,21 @@ def pick_match(results: list[dict], title: str, year: int | None) -> dict | None
     return sorted(results, key=score, reverse=True)[0]
 
 
+# ISO 639-1 fallback names for the film's original language when it is not
+# among the spoken_languages list (e.g. Cantonese "cn").
+ISO639 = {
+    "en": "English", "fr": "French", "es": "Spanish", "de": "German",
+    "it": "Italian", "ja": "Japanese", "ko": "Korean", "zh": "Chinese",
+    "cn": "Cantonese", "ru": "Russian", "hi": "Hindi", "pt": "Portuguese",
+    "sv": "Swedish", "da": "Danish", "no": "Norwegian", "fi": "Finnish",
+    "nl": "Dutch", "pl": "Polish", "cs": "Czech", "hu": "Hungarian",
+    "tr": "Turkish", "ar": "Arabic", "fa": "Persian", "he": "Hebrew",
+    "th": "Thai", "vi": "Vietnamese", "id": "Indonesian", "el": "Greek",
+    "ro": "Romanian", "uk": "Ukrainian", "ta": "Tamil", "te": "Telugu",
+    "ml": "Malayalam", "bn": "Bengali", "is": "Icelandic", "et": "Estonian",
+}
+
+
 def extract(details: dict) -> dict:
     credits = details.get("credits", {}) or {}
     crew = credits.get("crew", []) or []
@@ -64,10 +79,33 @@ def extract(details: dict) -> dict:
     top_cast = [c["name"] for c in cast[:8]]
     keywords = [k["name"] for k in (details.get("keywords", {}) or {}).get("keywords", [])]
     genres = [g["name"] for g in details.get("genres", [])]
-    languages = [l["english_name"] for l in details.get("spoken_languages", [])]
-    countries = [c["name"] for c in details.get("production_countries", [])]
+    spoken = details.get("spoken_languages", []) or []
+    languages = [l["english_name"] for l in spoken]
+    prod_countries = details.get("production_countries", []) or []
+    countries = [c["name"] for c in prod_countries]
     studios = [c["name"] for c in details.get("production_companies", [])][:6]
     release_date = details.get("release_date") or None
+
+    # Primary (main) language: derive from the film's original_language code,
+    # so a film with one spoken line of another language isn't miscategorized.
+    orig_code = details.get("original_language")
+    lang_by_code = {l.get("iso_639_1"): (l.get("english_name") or l.get("name")) for l in spoken}
+    primary_language = (
+        lang_by_code.get(orig_code)
+        or ISO639.get(orig_code)
+        or (orig_code.upper() if orig_code else None)
+    )
+
+    # Primary (main) country: prefer origin_country, else first production country.
+    country_by_code = {c.get("iso_3166_1"): c.get("name") for c in prod_countries}
+    origin = details.get("origin_country") or []
+    if origin:
+        primary_country = country_by_code.get(origin[0]) or origin[0]
+    elif prod_countries:
+        primary_country = prod_countries[0].get("name")
+    else:
+        primary_country = None
+
     return {
         "tmdbId": details.get("id"),
         "posterUrl": poster_url(details.get("poster_path")),
@@ -79,8 +117,10 @@ def extract(details: dict) -> dict:
         "revenue": details.get("revenue") or None,
         "genres": genres,
         "languages": languages,
-        "originalLanguage": details.get("original_language"),
+        "originalLanguage": orig_code,
+        "primaryLanguage": primary_language,
         "countries": countries,
+        "primaryCountry": primary_country,
         "studios": studios,
         "directors": directors,
         "writers": writers,

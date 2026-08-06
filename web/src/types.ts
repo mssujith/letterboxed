@@ -21,7 +21,9 @@ export interface Film {
   genres?: string[];
   languages?: string[];
   originalLanguage?: string | null;
+  primaryLanguage?: string | null;
   countries?: string[];
+  primaryCountry?: string | null;
   studios?: string[];
   directors?: string[];
   writers?: string[];

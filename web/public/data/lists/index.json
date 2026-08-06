@@ -15,7 +15,7 @@
     "id": "imdb_top250",
     "name": "IMDb Top 250",
     "source": "IMDb",
-    "count": 0
+    "count": 242
   },
   {
     "id": "letterboxd_top250",
@@ -33,6 +33,6 @@
     "id": "tspdt_1000",
     "name": "They Shoot Pictures 1000 Greatest Films",
     "source": "TSPDT",
-    "count": 0
+    "count": 982
   }
 ]

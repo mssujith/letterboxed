@@ -16,6 +16,7 @@ from common import (
     META_FILE,
     OVERRIDES_FILE,
     RAW_FILE,
+    WATCHLIST_FILE,
     ensure_dirs,
     film_key,
     load_json,
@@ -154,6 +155,23 @@ def main() -> None:
             "posterUrl": poster_by_key.get(e.get("key")),
             "tmdbId": tmdb_by_key.get(e.get("key")),
         })
+
+    # Watchlist: match each item to TMDB for a poster (search results are cached).
+    watchlist_out = []
+    for item in raw.get("watchlist", []):
+        title = item.get("title") or ""
+        year = item.get("year")
+        results = client.search_movie(title, year)
+        match = pick_match(results, title, year)
+        watchlist_out.append({
+            "tmdbId": match["id"] if match else None,
+            "title": title,
+            "year": year,
+            "posterUrl": poster_url(match.get("poster_path")) if match else None,
+            "tmdbRating": (match.get("vote_average") if match else None) or None,
+            "releaseDate": (match.get("release_date") if match else None) or None,
+        })
+    write_json(WATCHLIST_FILE, watchlist_out)
 
     # Meta: filter dimensions + summary counts.
     genre_counter: Counter = Counter()

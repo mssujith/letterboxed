@@ -155,6 +155,137 @@ export interface HeatCell {
   count: number;
 }
 
+export interface RatingPersonality {
+  ratedCount: number;
+  overlapCount: number;
+  avgUser: number | null;
+  avgCrowd5: number | null;
+  generosity: number | null; // avgUser - avgCrowd5
+  mostCommon: number | null;
+  spread: number | null; // std dev of your ratings
+  pctAboveCrowd: number;
+  pctBelowCrowd: number;
+}
+
+export function ratingPersonality(films: Film[]): RatingPersonality {
+  const rated = films.filter((f) => f.rating != null) as (Film & { rating: number })[];
+  const ratings = rated.map((f) => f.rating);
+  const avgUser = ratings.length ? ratings.reduce((a, b) => a + b, 0) / ratings.length : null;
+
+  // Most common rating.
+  const buckets = new Map<number, number>();
+  for (const r of ratings) buckets.set(r, (buckets.get(r) ?? 0) + 1);
+  let mostCommon: number | null = null;
+  let best = -1;
+  for (const [r, c] of buckets) if (c > best) { best = c; mostCommon = r; }
+
+  // Std dev.
+  let spread: number | null = null;
+  if (avgUser != null && ratings.length > 1) {
+    const variance = ratings.reduce((a, r) => a + (r - avgUser) ** 2, 0) / ratings.length;
+    spread = Math.sqrt(variance);
+  }
+
+  // Overlap with TMDB.
+  const overlap = rated.filter((f) => f.tmdbRating != null && (f.tmdbVotes ?? 0) >= 50);
+  const crowd5 = overlap.map((f) => (f.tmdbRating as number) / 2);
+  const avgCrowd5 = crowd5.length ? crowd5.reduce((a, b) => a + b, 0) / crowd5.length : null;
+  let above = 0;
+  let below = 0;
+  for (const f of overlap) {
+    const c = (f.tmdbRating as number) / 2;
+    if (f.rating > c) above += 1;
+    else if (f.rating < c) below += 1;
+  }
+  const n = overlap.length || 1;
+
+  return {
+    ratedCount: ratings.length,
+    overlapCount: overlap.length,
+    avgUser,
+    avgCrowd5,
+    generosity: avgUser != null && avgCrowd5 != null ? avgUser - avgCrowd5 : null,
+    mostCommon,
+    spread,
+    pctAboveCrowd: Math.round((above / n) * 100),
+    pctBelowCrowd: Math.round((below / n) * 100),
+  };
+}
+
+export interface BoxOffice {
+  totalRevenue: number;
+  totalBudget: number;
+  withData: number;
+  highestGrossing: Film | null;
+  biggestBudget: Film | null;
+  mostProfitable: { film: Film; ratio: number } | null;
+  biggestFlop: { film: Film; loss: number } | null;
+}
+
+export function boxOffice(films: Film[]): BoxOffice {
+  let totalRevenue = 0;
+  let totalBudget = 0;
+  let withData = 0;
+  let highestGrossing: Film | null = null;
+  let biggestBudget: Film | null = null;
+  let mostProfitable: { film: Film; ratio: number } | null = null;
+  let biggestFlop: { film: Film; loss: number } | null = null;
+
+  for (const f of films) {
+    const rev = f.revenue ?? 0;
+    const bud = f.budget ?? 0;
+    if (rev > 0 || bud > 0) withData += 1;
+    totalRevenue += rev;
+    totalBudget += bud;
+    if (rev > 0 && (!highestGrossing || rev > (highestGrossing.revenue ?? 0))) highestGrossing = f;
+    if (bud > 0 && (!biggestBudget || bud > (biggestBudget.budget ?? 0))) biggestBudget = f;
+    if (rev > 0 && bud > 1_000_000) {
+      const ratio = rev / bud;
+      if (!mostProfitable || ratio > mostProfitable.ratio) mostProfitable = { film: f, ratio };
+      const loss = bud - rev;
+      if (loss > 0 && (!biggestFlop || loss > biggestFlop.loss)) biggestFlop = { film: f, loss };
+    }
+  }
+
+  return { totalRevenue, totalBudget, withData, highestGrossing, biggestBudget, mostProfitable, biggestFlop };
+}
+
+/** Films you rated highly but that few people have seen (low TMDB vote counts). */
+export function hiddenGems(films: Film[], minRating = 4, limit = 12): Film[] {
+  return films
+    .filter((f) => f.rating != null && f.rating >= minRating && (f.tmdbVotes ?? 0) > 0)
+    .sort((a, b) => (a.tmdbVotes ?? 0) - (b.tmdbVotes ?? 0))
+    .slice(0, limit);
+}
+
+export interface Superlatives {
+  longest: Film | null;
+  shortest: Film | null;
+  oldest: Film | null;
+  newest: Film | null;
+  mostRewatched: Film | null;
+}
+
+export function superlatives(films: Film[]): Superlatives {
+  let longest: Film | null = null;
+  let shortest: Film | null = null;
+  let oldest: Film | null = null;
+  let newest: Film | null = null;
+  let mostRewatched: Film | null = null;
+  for (const f of films) {
+    if (f.runtime && f.runtime > 0) {
+      if (!longest || f.runtime > (longest.runtime ?? 0)) longest = f;
+      if (!shortest || f.runtime < (shortest.runtime ?? Infinity)) shortest = f;
+    }
+    if (f.year) {
+      if (!oldest || f.year < (oldest.year ?? Infinity)) oldest = f;
+      if (!newest || f.year > (newest.year ?? -Infinity)) newest = f;
+    }
+    if (!mostRewatched || f.watchCount > mostRewatched.watchCount) mostRewatched = f;
+  }
+  return { longest, shortest, oldest, newest, mostRewatched };
+}
+
 export function dailyCounts(films: Film[], watchedYear: number | "all"): Map<string, number> {
   const events = watchEvents(films, watchedYear);
   const map = new Map<string, number>();

@@ -39,6 +39,15 @@ export interface DiaryEntry {
   tmdbId?: number | null;
 }
 
+export interface WatchlistFilm {
+  tmdbId: number | null;
+  title: string;
+  year: number | null;
+  posterUrl?: string | null;
+  tmdbRating?: number | null;
+  releaseDate?: string | null;
+}
+
 export interface Meta {
   generatedAt: string;
   counts: {

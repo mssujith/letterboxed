@@ -21,6 +21,7 @@ WEB_LISTS_DIR = WEB_DATA_DIR / "lists"
 RAW_FILE = OUT_DIR / "raw.json"
 FILMS_FILE = WEB_DATA_DIR / "films.json"
 DIARY_FILE = WEB_DATA_DIR / "diary.json"
+WATCHLIST_FILE = WEB_DATA_DIR / "watchlist.json"
 META_FILE = WEB_DATA_DIR / "meta.json"
 
 

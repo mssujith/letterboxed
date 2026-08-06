@@ -5,6 +5,8 @@ import Stats from "./pages/Stats";
 import Diary from "./pages/Diary";
 import Films from "./pages/Films";
 import Lists from "./pages/Lists";
+import Insights from "./pages/Insights";
+import Watchlist from "./pages/Watchlist";
 import ManualLog from "./pages/ManualLog";
 
 function Nav() {
@@ -25,6 +27,9 @@ function Nav() {
           <NavLink to="/stats" className={linkClass}>
             Stats
           </NavLink>
+          <NavLink to="/insights" className={linkClass}>
+            Insights
+          </NavLink>
           <NavLink to="/diary" className={linkClass}>
             Diary
           </NavLink>
@@ -33,6 +38,9 @@ function Nav() {
           </NavLink>
           <NavLink to="/lists" className={linkClass}>
             Lists
+          </NavLink>
+          <NavLink to="/watchlist" className={linkClass}>
+            Watchlist
           </NavLink>
           <NavLink to="/log" className={linkClass}>
             Log
@@ -73,9 +81,11 @@ export default function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/stats" element={<Stats />} />
+              <Route path="/insights" element={<Insights />} />
               <Route path="/diary" element={<Diary />} />
               <Route path="/films" element={<Films />} />
               <Route path="/lists" element={<Lists />} />
+              <Route path="/watchlist" element={<Watchlist />} />
               <Route path="/log" element={<ManualLog />} />
             </Routes>
           </>

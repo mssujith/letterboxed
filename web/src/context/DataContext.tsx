@@ -23,6 +23,7 @@ interface DataContextValue {
   diary: DiaryEntry[];
   meta: AppData["meta"];
   lists: AppData["lists"];
+  watchlist: AppData["watchlist"];
   loading: boolean;
   filters: Filters;
   setFilters: (f: Filters) => void;
@@ -34,7 +35,7 @@ interface DataContextValue {
 const DataContext = createContext<DataContextValue | null>(null);
 
 export function DataProvider({ children }: { children: ReactNode }) {
-  const [data, setData] = useState<AppData>({ films: [], diary: [], meta: null, lists: [] });
+  const [data, setData] = useState<AppData>({ films: [], diary: [], meta: null, lists: [], watchlist: [] });
   const [loading, setLoading] = useState(true);
   const [filters, setFilters] = useState<Filters>(defaultFilters);
   const [manual, setManualState] = useState<ManualEntry[]>([]);
@@ -74,6 +75,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
     diary,
     meta: data.meta,
     lists: data.lists,
+    watchlist: data.watchlist,
     loading,
     filters,
     setFilters,

@@ -4,6 +4,7 @@ import type {
   Film,
   ListIndexEntry,
   Meta,
+  WatchlistFilm,
 } from "../types";
 
 const base = import.meta.env.BASE_URL; // "./" in production, "/" in dev
@@ -23,14 +24,16 @@ export interface AppData {
   diary: DiaryEntry[];
   meta: Meta | null;
   lists: CanonicalList[];
+  watchlist: WatchlistFilm[];
 }
 
 export async function loadAppData(): Promise<AppData> {
-  const [films, diary, meta, listIndex] = await Promise.all([
+  const [films, diary, meta, listIndex, watchlist] = await Promise.all([
     fetchJson<Film[]>("films.json", []),
     fetchJson<DiaryEntry[]>("diary.json", []),
     fetchJson<Meta | null>("meta.json", null),
     fetchJson<ListIndexEntry[]>("lists/index.json", []),
+    fetchJson<WatchlistFilm[]>("watchlist.json", []),
   ]);
 
   const lists = await Promise.all(
@@ -45,5 +48,5 @@ export async function loadAppData(): Promise<AppData> {
     )
   );
 
-  return { films, diary, meta, lists };
+  return { films, diary, meta, lists, watchlist };
 }

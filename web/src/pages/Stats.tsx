@@ -105,6 +105,10 @@ export default function Stats() {
       </div>
 
       <div className="section-title">Contrarian takes (you vs the crowd)</div>
+      <p className="muted small" style={{ marginTop: -6, marginBottom: 12 }}>
+        "Crowd" is the <strong>TMDB</strong> community average, rescaled to 5 stars &mdash; not the
+        Letterboxd average (which isn't included in the export and usually runs a bit higher).
+      </p>
       <div className="grid two-col">
         <Card title="You liked more than average">
           <ContrarianTable rows={contra.over} />
@@ -149,7 +153,7 @@ function ContrarianTable({ rows }: { rows: { film: Film; userRating: number; tmd
         <tr>
           <th>Film</th>
           <th>You</th>
-          <th>Crowd</th>
+          <th>TMDB</th>
           <th>Δ</th>
         </tr>
       </thead>

@@ -71,6 +71,11 @@ export default function Dashboard() {
         />
         <StatCard value={activity.activeDays.toLocaleString()} label="Active days" />
         <StatCard value={activity.perActiveDay.toFixed(1)} label="Films / active day" />
+        <StatCard
+          value={activity.totalWatches.toLocaleString()}
+          label="Logged"
+          sub={filters.watchedYear === "all" ? "all time" : `in ${filters.watchedYear}`}
+        />
       </div>
       <div className="card" style={{ marginTop: 16 }}>
         <CalendarHeatmap counts={daily} {...heatRange} />

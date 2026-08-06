@@ -1,0 +1,6 @@
+{
+  "_comment": "Manual TMDB id overrides for films that title+year matching gets wrong. Key is 'Title (Year)' exactly as it appears in your Letterboxd export; value is the correct TMDB movie id (an integer). Example below can be deleted.",
+  "_example": {
+    "The Thing (1982)": 1091
+  }
+}

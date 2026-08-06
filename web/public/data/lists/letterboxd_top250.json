@@ -1,0 +1,8 @@
+{
+  "id": "letterboxd_top250",
+  "name": "Letterboxd Official Top 250",
+  "source": "Letterboxd",
+  "description": "Letterboxd's Official Top 250 Narrative Feature Films. Volatile, so configurable.",
+  "count": 0,
+  "films": []
+}

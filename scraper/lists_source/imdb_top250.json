@@ -1,0 +1,9 @@
+{
+  "id": "imdb_top250",
+  "name": "IMDb Top 250",
+  "source": "IMDb",
+  "description": "IMDb's Top 250 by weighted user rating. Volatile list, so it is configurable rather than hardcoded.",
+  "tmdbListId": null,
+  "csv": "imdb_top250.csv",
+  "_howto": "IMDb's Top 250 changes constantly. To populate it, EITHER (a) set 'tmdbListId' to a public TMDB list that mirrors it (find one at https://www.themoviedb.org/search and copy the numeric id from the list URL), OR (b) drop a CSV named imdb_top250.csv in this folder with columns Title,Year (an optional tmdbId column skips matching). Then re-run build_lists.py."
+}

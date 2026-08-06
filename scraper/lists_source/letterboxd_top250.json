@@ -1,0 +1,9 @@
+{
+  "id": "letterboxd_top250",
+  "name": "Letterboxd Official Top 250",
+  "source": "Letterboxd",
+  "description": "Letterboxd's Official Top 250 Narrative Feature Films. Volatile, so configurable.",
+  "tmdbListId": null,
+  "csv": "letterboxd_top250.csv",
+  "_howto": "To populate: EITHER set 'tmdbListId' to a mirroring public TMDB list id, OR drop letterboxd_top250.csv here with columns Title,Year (optional tmdbId). Then re-run build_lists.py."
+}

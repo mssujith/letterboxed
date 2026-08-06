@@ -1,0 +1,38 @@
+[
+  {
+    "id": "afi100",
+    "name": "AFI 100 Years...100 Movies (2007)",
+    "source": "American Film Institute",
+    "count": 100
+  },
+  {
+    "id": "cannes_palme_dor",
+    "name": "Cannes Palme d'Or Winners",
+    "source": "Cannes Film Festival",
+    "count": 69
+  },
+  {
+    "id": "imdb_top250",
+    "name": "IMDb Top 250",
+    "source": "IMDb",
+    "count": 0
+  },
+  {
+    "id": "letterboxd_top250",
+    "name": "Letterboxd Official Top 250",
+    "source": "Letterboxd",
+    "count": 0
+  },
+  {
+    "id": "oscar_best_picture",
+    "name": "Oscar Best Picture Winners",
+    "source": "Academy Awards",
+    "count": 96
+  },
+  {
+    "id": "tspdt_1000",
+    "name": "They Shoot Pictures 1000 Greatest Films",
+    "source": "TSPDT",
+    "count": 0
+  }
+]

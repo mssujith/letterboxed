@@ -1,0 +1,423 @@
+{
+  "id": "cannes_palme_dor",
+  "name": "Cannes Palme d'Or Winners",
+  "source": "Cannes Film Festival",
+  "description": "Winners of the Palme d'Or (top prize) since 1955. Ties: one representative title per year.",
+  "count": 69,
+  "films": [
+    {
+      "tmdbId": 15919,
+      "title": "Marty",
+      "year": 1955,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/8tnGO5VoAQII4DbE3hozWKhV4BY.jpg"
+    },
+    {
+      "tmdbId": 60234,
+      "title": "The Silent World",
+      "year": 1956,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/ys1AiQJbQPNimud1kZQ91FgOJLR.jpg"
+    },
+    {
+      "tmdbId": 43258,
+      "title": "Friendly Persuasion",
+      "year": 1956,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/mhsdObvFHoOfgaKAVJUOeK3LiOP.jpg"
+    },
+    {
+      "tmdbId": 38360,
+      "title": "The Cranes Are Flying",
+      "year": 1957,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/foXYOdXEJ0rvtTDo4LLnsUnvPLB.jpg"
+    },
+    {
+      "tmdbId": 40423,
+      "title": "Black Orpheus",
+      "year": 1959,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/fJWzdNRnfjcJuaZiKqaSURFV6Lg.jpg"
+    },
+    {
+      "tmdbId": 439,
+      "title": "La Dolce Vita",
+      "year": 1960,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/dZ2v0DAX4aCZartCzZdg4ZinSW2.jpg"
+    },
+    {
+      "tmdbId": 4497,
+      "title": "Viridiana",
+      "year": 1961,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/mYPuSx5JwL8AdTwS1iQW4Un1cYP.jpg"
+    },
+    {
+      "tmdbId": 59990,
+      "title": "Keeper of Promises",
+      "year": 1962,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/wjNydK6CnoJFEp69OzAcSsAaIME.jpg"
+    },
+    {
+      "tmdbId": 1040,
+      "title": "The Leopard",
+      "year": 1963,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/riSUxwoK3xjkOgy6YJSvPhi7cO6.jpg"
+    },
+    {
+      "tmdbId": 5967,
+      "title": "The Umbrellas of Cherbourg",
+      "year": 1964,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/tAgTf64XKK5ir7w5C7dnB53jWWG.jpg"
+    },
+    {
+      "tmdbId": 42744,
+      "title": "The Knack ...and How to Get It",
+      "year": 1965,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/xO2dJcCISY6lujaU4Qew3RzSErJ.jpg"
+    },
+    {
+      "tmdbId": 42726,
+      "title": "A Man and a Woman",
+      "year": 1966,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/boDZQiubhyhksN8fcgM4sXZ2btW.jpg"
+    },
+    {
+      "tmdbId": 1052,
+      "title": "Blow-Up",
+      "year": 1966,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/jVDVpydUw8Z50naUDAG4NbRCrSa.jpg"
+    },
+    {
+      "tmdbId": 14794,
+      "title": "If....",
+      "year": 1968,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/oqlpAGq4aXhc6ODtxBcGM1SEoIp.jpg"
+    },
+    {
+      "tmdbId": 651,
+      "title": "MASH",
+      "year": 1970,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/on8Q9LhtHYNhmITjUMpgOUkIG8o.jpg"
+    },
+    {
+      "tmdbId": 36194,
+      "title": "The Go-Between",
+      "year": 1971,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/61dXOIpDaiWCp7aIjBYkd6ujdXZ.jpg"
+    },
+    {
+      "tmdbId": 56231,
+      "title": "The Working Class Goes to Heaven",
+      "year": 1971,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/gulAszCUPjuBtDd6NudgLTBu3i5.jpg"
+    },
+    {
+      "tmdbId": 31587,
+      "title": "Scarecrow",
+      "year": 1973,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/jK0e8jLl0pp59yX6AYMyyJPnMVJ.jpg"
+    },
+    {
+      "tmdbId": 592,
+      "title": "The Conversation",
+      "year": 1974,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/dHqVBwcv1SGymOpUueRoKzcmdes.jpg"
+    },
+    {
+      "tmdbId": 52555,
+      "title": "Chronicle of the Years of Fire",
+      "year": 1975,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/wtx3qqdwwp3sNANYfAFXl5tKZE6.jpg"
+    },
+    {
+      "tmdbId": 103,
+      "title": "Taxi Driver",
+      "year": 1976,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/ekstpH614fwDX8DUln1a2Opz0N8.jpg"
+    },
+    {
+      "tmdbId": 42225,
+      "title": "Padre Padrone",
+      "year": 1977,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/6kGarhZIsbpFNcEHftRzNeuz6Sb.jpg"
+    },
+    {
+      "tmdbId": 31542,
+      "title": "The Tree of Wooden Clogs",
+      "year": 1978,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/ld4l2XWuECX6c6lWd2BWv1olg2N.jpg"
+    },
+    {
+      "tmdbId": 28,
+      "title": "Apocalypse Now",
+      "year": 1979,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg"
+    },
+    {
+      "tmdbId": 11953,
+      "title": "Kagemusha",
+      "year": 1980,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/fJgqj9s8HNZz9zwX6femVJn8HEB.jpg"
+    },
+    {
+      "tmdbId": 225,
+      "title": "Man of Iron",
+      "year": 1981,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/22wNUqKyz2m6wzAt31f26H8Y433.jpg"
+    },
+    {
+      "tmdbId": 15600,
+      "title": "Missing",
+      "year": 1982,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/fAAhC4RkpXu7SJgIESWQwVxcelo.jpg"
+    },
+    {
+      "tmdbId": 42113,
+      "title": "The Ballad of Narayama",
+      "year": 1983,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/h3iNimtw6HsFTtAvEDF3XYZ4Y5T.jpg"
+    },
+    {
+      "tmdbId": 655,
+      "title": "Paris, Texas",
+      "year": 1984,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/sP27Qm4THyRZyHjHYMfIDtJP6YE.jpg"
+    },
+    {
+      "tmdbId": 21042,
+      "title": "When Father Was Away on Business",
+      "year": 1985,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/jhTu6UwP32jPwiBccGAkZq0yqvV.jpg"
+    },
+    {
+      "tmdbId": 11416,
+      "title": "The Mission",
+      "year": 1986,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/6K9cG6LOOtySZF4D4xBu1MApC1N.jpg"
+    },
+    {
+      "tmdbId": 31300,
+      "title": "Under the Sun of Satan",
+      "year": 1987,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/mWqd19oWODYyHK6RHGsAdW8wtL5.jpg"
+    },
+    {
+      "tmdbId": 11174,
+      "title": "Pelle the Conqueror",
+      "year": 1987,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/oSsu4khg459yTR1sw4qjEC4LO5J.jpg"
+    },
+    {
+      "tmdbId": 1412,
+      "title": "Sex, Lies, and Videotape",
+      "year": 1989,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/dE0u4uB5UPfVIdz258Ye2XEPuuh.jpg"
+    },
+    {
+      "tmdbId": 483,
+      "title": "Wild at Heart",
+      "year": 1990,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/uLUFI5sJIfWrBUWB2Y1dEuyvvVy.jpg"
+    },
+    {
+      "tmdbId": 290,
+      "title": "Barton Fink",
+      "year": 1991,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/oDkp5iClJ9WKJGtKHz8BydodHC3.jpg"
+    },
+    {
+      "tmdbId": 41764,
+      "title": "The Best Intentions",
+      "year": 1992,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/kkwKpqYac8zUNNMkRTfAQfbMQWl.jpg"
+    },
+    {
+      "tmdbId": 713,
+      "title": "The Piano",
+      "year": 1993,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/rx8RKXn8OtuS6lqloYsjyrGOUp4.jpg"
+    },
+    {
+      "tmdbId": 10997,
+      "title": "Farewell My Concubine",
+      "year": 1993,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/f54hNIiHNINw3JiUJB2XaQl5wCN.jpg"
+    },
+    {
+      "tmdbId": 680,
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg"
+    },
+    {
+      "tmdbId": 11902,
+      "title": "Underground",
+      "year": 1995,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/h8N6y13t4VusrDdH5PzTkwvBvgN.jpg"
+    },
+    {
+      "tmdbId": 11159,
+      "title": "Secrets & Lies",
+      "year": 1996,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/zQBuRQ3hrLhkEsXcxteUxuxLrvs.jpg"
+    },
+    {
+      "tmdbId": 30020,
+      "title": "Taste of Cherry",
+      "year": 1997,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/vgPwjgbSdbYWrS1ty8TIZtmi6Tn.jpg"
+    },
+    {
+      "tmdbId": 20506,
+      "title": "The Eel",
+      "year": 1997,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/3TEzcwdF3DPeO8uSPmCfBBUhgNp.jpg"
+    },
+    {
+      "tmdbId": 24858,
+      "title": "Eternity and a Day",
+      "year": 1998,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/wH8sfLJCqNjsIw8zkXpvxdSzj60.jpg"
+    },
+    {
+      "tmdbId": 11489,
+      "title": "Rosetta",
+      "year": 1999,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/buwLjQPPA9FaATvKzeAppLXiGMB.jpg"
+    },
+    {
+      "tmdbId": 16,
+      "title": "Dancer in the Dark",
+      "year": 2000,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/pWzOfTJRZHPNO1VNrMnNFqRcJwg.jpg"
+    },
+    {
+      "tmdbId": 11447,
+      "title": "The Son's Room",
+      "year": 2001,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/e9s1Hvw9TcVZspbkq2V8Bmvhky1.jpg"
+    },
+    {
+      "tmdbId": 423,
+      "title": "The Pianist",
+      "year": 2002,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg"
+    },
+    {
+      "tmdbId": 1807,
+      "title": "Elephant",
+      "year": 2003,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/1a4VU9z2hxEvugHMK7VsobB9xTX.jpg"
+    },
+    {
+      "tmdbId": 1777,
+      "title": "Fahrenheit 9/11",
+      "year": 2004,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/cZ7M343iuiMDc36fSeSm699XQFv.jpg"
+    },
+    {
+      "tmdbId": 11490,
+      "title": "L'Enfant",
+      "year": 2005,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/dk7ZpsVKLt2nwjQZZIde0WP4oQV.jpg"
+    },
+    {
+      "tmdbId": 1116,
+      "title": "The Wind That Shakes the Barley",
+      "year": 2006,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/yCb4LweL6U7KTgSda3Wb7vHiA9J.jpg"
+    },
+    {
+      "tmdbId": 2009,
+      "title": "4 Months, 3 Weeks and 2 Days",
+      "year": 2007,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/acEtvzFPeOQwbzRWncjRLenhnKV.jpg"
+    },
+    {
+      "tmdbId": 8841,
+      "title": "The Class",
+      "year": 2008,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/8yFgK1YgfrnbsRXTg4Hko98nIUt.jpg"
+    },
+    {
+      "tmdbId": 37903,
+      "title": "The White Ribbon",
+      "year": 2009,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/54dlnGDexrwAFlDb8HWKfmmX4LB.jpg"
+    },
+    {
+      "tmdbId": 38368,
+      "title": "Uncle Boonmee Who Can Recall His Past Lives",
+      "year": 2010,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/kPFkC9EBvllCIuDTR7A0DSEK6gJ.jpg"
+    },
+    {
+      "tmdbId": 8967,
+      "title": "The Tree of Life",
+      "year": 2011,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/l8cwuB5WJSoj4uMAsnzuHBOMaSJ.jpg"
+    },
+    {
+      "tmdbId": 86837,
+      "title": "Amour",
+      "year": 2012,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/19hyCudualHxCD0GrEngqsi0wBF.jpg"
+    },
+    {
+      "tmdbId": 152584,
+      "title": "Blue Is the Warmest Colour",
+      "year": 2013,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/kgUk1wti2cvrptIgUz0VTAtSF6w.jpg"
+    },
+    {
+      "tmdbId": 265169,
+      "title": "Winter Sleep",
+      "year": 2014,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/95j83qOqH3Ivz4RYkaSjGT0VSNr.jpg"
+    },
+    {
+      "tmdbId": 314402,
+      "title": "Dheepan",
+      "year": 2015,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/80wJKQZYa9FHrxfaTVxXePmXni7.jpg"
+    },
+    {
+      "tmdbId": 374473,
+      "title": "I, Daniel Blake",
+      "year": 2016,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/nu3WVABXz2W85N6JXTZOT1aWS3b.jpg"
+    },
+    {
+      "tmdbId": 401246,
+      "title": "The Square",
+      "year": 2017,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/pefcv5VNspSK4Dt8doei5bJmmln.jpg"
+    },
+    {
+      "tmdbId": 505192,
+      "title": "Shoplifters",
+      "year": 2018,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/4nfRUOv3LX5zLn98WS1WqVBk9E9.jpg"
+    },
+    {
+      "tmdbId": 496243,
+      "title": "Parasite",
+      "year": 2019,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
+    },
+    {
+      "tmdbId": 630240,
+      "title": "Titane",
+      "year": 2021,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/mBlpouG3gqB8WLdP65LCOXb3jFb.jpg"
+    },
+    {
+      "tmdbId": 497828,
+      "title": "Triangle of Sadness",
+      "year": 2022,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/k9eLozCgCed5FGTSdHu0bBElAV8.jpg"
+    },
+    {
+      "tmdbId": 915935,
+      "title": "Anatomy of a Fall",
+      "year": 2023,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/1ho0d4LNZw3Y0voeKmSvPSgJOJ2.jpg"
+    }
+  ]
+}

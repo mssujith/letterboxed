@@ -1,0 +1,30 @@
+# Node
+node_modules/
+web/dist/
+web/node_modules/
+
+# TS build artifacts
+*.tsbuildinfo
+web/vite.config.js
+web/vite.config.d.ts
+*.log
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+scraper/.env
+scraper/cache/
+scraper/exports/*
+!scraper/exports/.gitkeep
+scraper/out/
+
+# Letterboxd export archives (personal data) anywhere in the repo
+*.zip
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

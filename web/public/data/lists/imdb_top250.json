@@ -1,0 +1,8 @@
+{
+  "id": "imdb_top250",
+  "name": "IMDb Top 250",
+  "source": "IMDb",
+  "description": "IMDb's Top 250 by weighted user rating. Volatile list, so it is configurable rather than hardcoded.",
+  "count": 0,
+  "films": []
+}

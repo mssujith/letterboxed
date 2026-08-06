@@ -1,0 +1,585 @@
+{
+  "id": "oscar_best_picture",
+  "name": "Oscar Best Picture Winners",
+  "source": "Academy Awards",
+  "description": "Every film to win the Academy Award for Best Picture.",
+  "count": 96,
+  "films": [
+    {
+      "tmdbId": 28966,
+      "title": "Wings",
+      "year": 1927,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/kEl6KCBgdmT1Nex3ka0EIWAOmtm.jpg"
+    },
+    {
+      "tmdbId": 65203,
+      "title": "The Broadway Melody",
+      "year": 1929,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/giq8GJs8YGMzHxeKxNSuwzAdd1c.jpg"
+    },
+    {
+      "tmdbId": 143,
+      "title": "All Quiet on the Western Front",
+      "year": 1930,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/1wZUB08igw8iLUgF1r4T6aJD65b.jpg"
+    },
+    {
+      "tmdbId": 42861,
+      "title": "Cimarron",
+      "year": 1931,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/cqvfhi9s1VsTgXcV1B7vX0Cb1qA.jpg"
+    },
+    {
+      "tmdbId": 33680,
+      "title": "Grand Hotel",
+      "year": 1932,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/g8xrpXJWzz91R4jL8ybMKMValB2.jpg"
+    },
+    {
+      "tmdbId": 56164,
+      "title": "Cavalcade",
+      "year": 1933,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/a6yld4HmB49b9CP9wmv3wcwk65K.jpg"
+    },
+    {
+      "tmdbId": 3078,
+      "title": "It Happened One Night",
+      "year": 1934,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/2PNUGWAflH6UUumas0POMmokHlc.jpg"
+    },
+    {
+      "tmdbId": 12311,
+      "title": "Mutiny on the Bounty",
+      "year": 1935,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/GD98ozz6F6tSu8BWGulpseEKhv.jpg"
+    },
+    {
+      "tmdbId": 43277,
+      "title": "The Great Ziegfeld",
+      "year": 1936,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/rhF6vYFVCaPCs7CgDqg3n4mNod3.jpg"
+    },
+    {
+      "tmdbId": 43278,
+      "title": "The Life of Emile Zola",
+      "year": 1937,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/gsEa6ZU1zHhjTYneNNBQApzl8Vu.jpg"
+    },
+    {
+      "tmdbId": 34106,
+      "title": "You Can't Take It with You",
+      "year": 1938,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/9JltqbDyWstYW6gnvqDO6L5bOrx.jpg"
+    },
+    {
+      "tmdbId": 770,
+      "title": "Gone with the Wind",
+      "year": 1939,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/lNz2Ow0wGCAvzckW7EOjE03KcYv.jpg"
+    },
+    {
+      "tmdbId": 223,
+      "title": "Rebecca",
+      "year": 1940,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/1qz3qUOHnVy7dL7M7G8jSErxE4b.jpg"
+    },
+    {
+      "tmdbId": 43266,
+      "title": "How Green Was My Valley",
+      "year": 1941,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/8N7OmxBqjRVUrqergUduGgr6exy.jpg"
+    },
+    {
+      "tmdbId": 27367,
+      "title": "Mrs. Miniver",
+      "year": 1942,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/fjPjx6FTaoTussbqoLj6OYTtUyi.jpg"
+    },
+    {
+      "tmdbId": 289,
+      "title": "Casablanca",
+      "year": 1942,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/lGCEKlJo2CnWydQj7aamY7s1S7Q.jpg"
+    },
+    {
+      "tmdbId": 17661,
+      "title": "Going My Way",
+      "year": 1944,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/838yNJnOk6iZj5YK1MoKiN2n1hw.jpg"
+    },
+    {
+      "tmdbId": 28580,
+      "title": "The Lost Weekend",
+      "year": 1945,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/yL6EJxPeYIcB9TChm56lHqXKzHC.jpg"
+    },
+    {
+      "tmdbId": 887,
+      "title": "The Best Years of Our Lives",
+      "year": 1946,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/gd5EoAU4MM57sW3vlWxJ0NMM8cV.jpg"
+    },
+    {
+      "tmdbId": 33667,
+      "title": "Gentleman's Agreement",
+      "year": 1947,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/aCCRbcmigPk00f34hpJuWZuvABo.jpg"
+    },
+    {
+      "tmdbId": 23383,
+      "title": "Hamlet",
+      "year": 1948,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/woO9SgU2vTRMZeG0YqOLeoIqlzC.jpg"
+    },
+    {
+      "tmdbId": 25430,
+      "title": "All the King's Men",
+      "year": 1949,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/7o8nnvFnkekDAlIYznNUWzxQFM6.jpg"
+    },
+    {
+      "tmdbId": 705,
+      "title": "All About Eve",
+      "year": 1950,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/blBzZaatPWVuWpXEnPscMA4Xp6m.jpg"
+    },
+    {
+      "tmdbId": 2769,
+      "title": "An American in Paris",
+      "year": 1951,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/lyDXkvG53ldz6Cf7dbjJl7TaoP5.jpg"
+    },
+    {
+      "tmdbId": 27191,
+      "title": "The Greatest Show on Earth",
+      "year": 1952,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/cKI0yGPRh1IlvRKKJRoMZruior8.jpg"
+    },
+    {
+      "tmdbId": 11426,
+      "title": "From Here to Eternity",
+      "year": 1953,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/sP3T6hTkTMCksUXb0wzzOgbXIfk.jpg"
+    },
+    {
+      "tmdbId": 654,
+      "title": "On the Waterfront",
+      "year": 1954,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/v1RtJ1qR4v9nrnfoBVBl6hjTW9.jpg"
+    },
+    {
+      "tmdbId": 15919,
+      "title": "Marty",
+      "year": 1955,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/8tnGO5VoAQII4DbE3hozWKhV4BY.jpg"
+    },
+    {
+      "tmdbId": 2897,
+      "title": "Around the World in 80 Days",
+      "year": 1956,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/kk6Rrwh0toMz9tjuUHdS4O3v2Rk.jpg"
+    },
+    {
+      "tmdbId": 826,
+      "title": "The Bridge on the River Kwai",
+      "year": 1957,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/7paXMt2e3Tr5dLmEZOGgFEn2Vo7.jpg"
+    },
+    {
+      "tmdbId": 17281,
+      "title": "Gigi",
+      "year": 1958,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/3GSuecnDr4N5ZaqTrwElSzt6eC2.jpg"
+    },
+    {
+      "tmdbId": 665,
+      "title": "Ben-Hur",
+      "year": 1959,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/m4WQ1dBIrEIHZNCoAjdpxwSKWyH.jpg"
+    },
+    {
+      "tmdbId": 284,
+      "title": "The Apartment",
+      "year": 1960,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/hhSRt1KKfRT0yEhEtRW3qp31JFU.jpg"
+    },
+    {
+      "tmdbId": 1725,
+      "title": "West Side Story",
+      "year": 1961,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/nzCMu6D5q60i2bVrIQ0DxlRSgCZ.jpg"
+    },
+    {
+      "tmdbId": 947,
+      "title": "Lawrence of Arabia",
+      "year": 1962,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/AiAm0EtDvyGqNpVoieRw4u65vD1.jpg"
+    },
+    {
+      "tmdbId": 5769,
+      "title": "Tom Jones",
+      "year": 1963,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/yKuZKLMhe74PJzaxYLh2s8h4P2P.jpg"
+    },
+    {
+      "tmdbId": 11113,
+      "title": "My Fair Lady",
+      "year": 1964,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/bTXVc29lGSNclf94VIZ49W4gGKl.jpg"
+    },
+    {
+      "tmdbId": 15121,
+      "title": "The Sound of Music",
+      "year": 1965,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/c6CrUZypAsBCaRWX0M3RVRDbhNS.jpg"
+    },
+    {
+      "tmdbId": 874,
+      "title": "A Man for All Seasons",
+      "year": 1966,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/kcwcqMitcnRO1SySlX1HKVn7yUV.jpg"
+    },
+    {
+      "tmdbId": 10633,
+      "title": "In the Heat of the Night",
+      "year": 1967,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/qFpfALhprXmOAbA5upTNupZw8rq.jpg"
+    },
+    {
+      "tmdbId": 17917,
+      "title": "Oliver!",
+      "year": 1968,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/1XJgoaOWKrqxkKeBKWLKSigqG8c.jpg"
+    },
+    {
+      "tmdbId": 3116,
+      "title": "Midnight Cowboy",
+      "year": 1969,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/ckklq45UxUkwgHve9xItXqXr06r.jpg"
+    },
+    {
+      "tmdbId": 11202,
+      "title": "Patton",
+      "year": 1970,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/rLM7jIEPTjj4CF7F1IrzzNjLUCu.jpg"
+    },
+    {
+      "tmdbId": 1051,
+      "title": "The French Connection",
+      "year": 1971,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/pH4saPwMjhnVGwmSH6RkMaHrt3s.jpg"
+    },
+    {
+      "tmdbId": 238,
+      "title": "The Godfather",
+      "year": 1972,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+    },
+    {
+      "tmdbId": 9277,
+      "title": "The Sting",
+      "year": 1973,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/ckmYng37zey8INYf6d10cVgIG93.jpg"
+    },
+    {
+      "tmdbId": 240,
+      "title": "The Godfather Part II",
+      "year": 1974,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/ecBRkXerAZqRRUfR8Lt3L3Dh6J5.jpg"
+    },
+    {
+      "tmdbId": 510,
+      "title": "One Flew Over the Cuckoo's Nest",
+      "year": 1975,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/kjWsMh72V6d8KRLV4EOoSJLT1H7.jpg"
+    },
+    {
+      "tmdbId": 1366,
+      "title": "Rocky",
+      "year": 1976,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/xSI0dbKLDETwhiVUy6hGE8KXUln.jpg"
+    },
+    {
+      "tmdbId": 703,
+      "title": "Annie Hall",
+      "year": 1977,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/dEtjPywhDbAXYjoFfhBC4U9unU7.jpg"
+    },
+    {
+      "tmdbId": 11778,
+      "title": "The Deer Hunter",
+      "year": 1978,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/bbGtogDZOg09bm42KIpCXUXICkh.jpg"
+    },
+    {
+      "tmdbId": 12102,
+      "title": "Kramer vs. Kramer",
+      "year": 1979,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/3CUP5V5SWfHSK4qvkZF7lMNyugY.jpg"
+    },
+    {
+      "tmdbId": 16619,
+      "title": "Ordinary People",
+      "year": 1980,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/tJVETEDAKgD3fEh88SHOvMvOQue.jpg"
+    },
+    {
+      "tmdbId": 9443,
+      "title": "Chariots of Fire",
+      "year": 1981,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/qnRaum8k0HqGRml2i7OawFqUtEb.jpg"
+    },
+    {
+      "tmdbId": 783,
+      "title": "Gandhi",
+      "year": 1982,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/rOXftt7SluxskrFrvU7qFJa5zeN.jpg"
+    },
+    {
+      "tmdbId": 11050,
+      "title": "Terms of Endearment",
+      "year": 1983,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/l77DRjJuykqKMtD9GTK4YT7qKHW.jpg"
+    },
+    {
+      "tmdbId": 279,
+      "title": "Amadeus",
+      "year": 1984,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/gQRfiyfGvr1az0quaYyMram3Aqt.jpg"
+    },
+    {
+      "tmdbId": 606,
+      "title": "Out of Africa",
+      "year": 1985,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/6oMKqh08TfxmvnoFR4mm1wZB67P.jpg"
+    },
+    {
+      "tmdbId": 792,
+      "title": "Platoon",
+      "year": 1986,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/m3mmFkPQKvPZq5exmh0bDuXlD9T.jpg"
+    },
+    {
+      "tmdbId": 746,
+      "title": "The Last Emperor",
+      "year": 1987,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/7TILJhdeJAaEyDiwvJZMo9SQBoe.jpg"
+    },
+    {
+      "tmdbId": 380,
+      "title": "Rain Man",
+      "year": 1988,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/iTNHwO896WKkaoPtpMMS74d8VNi.jpg"
+    },
+    {
+      "tmdbId": 403,
+      "title": "Driving Miss Daisy",
+      "year": 1989,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/iaCzvcY42HihFxQBTZCTKMpsI0P.jpg"
+    },
+    {
+      "tmdbId": 581,
+      "title": "Dances with Wolves",
+      "year": 1990,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/hw0ZEHAaTqTxSXGVwUFX7uvanSA.jpg"
+    },
+    {
+      "tmdbId": 274,
+      "title": "The Silence of the Lambs",
+      "year": 1991,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg"
+    },
+    {
+      "tmdbId": 33,
+      "title": "Unforgiven",
+      "year": 1992,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/54roTwbX9fltg85zjsmrooXAs12.jpg"
+    },
+    {
+      "tmdbId": 424,
+      "title": "Schindler's List",
+      "year": 1993,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg"
+    },
+    {
+      "tmdbId": 13,
+      "title": "Forrest Gump",
+      "year": 1994,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/Cw4hIUIAmSYfK9QfaUW5igp9La.jpg"
+    },
+    {
+      "tmdbId": 197,
+      "title": "Braveheart",
+      "year": 1995,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/or1gBugydmjToAEq7OZY0owwFk.jpg"
+    },
+    {
+      "tmdbId": 409,
+      "title": "The English Patient",
+      "year": 1996,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/8eHHqMg8qEYtVw8LQLygsHXSR2q.jpg"
+    },
+    {
+      "tmdbId": 597,
+      "title": "Titanic",
+      "year": 1997,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg"
+    },
+    {
+      "tmdbId": 1934,
+      "title": "Shakespeare in Love",
+      "year": 1998,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/zdW7jdzPi4J9KZR3TyY2jn3Xh5e.jpg"
+    },
+    {
+      "tmdbId": 14,
+      "title": "American Beauty",
+      "year": 1999,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/wby9315QzVKdW9BonAefg8jGTTb.jpg"
+    },
+    {
+      "tmdbId": 98,
+      "title": "Gladiator",
+      "year": 2000,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/wN2xWp1eIwCKOD0BHTcErTBv1Uq.jpg"
+    },
+    {
+      "tmdbId": 453,
+      "title": "A Beautiful Mind",
+      "year": 2001,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/rEIg5yJdNOt9fmX4P8gU9LeNoTQ.jpg"
+    },
+    {
+      "tmdbId": 1574,
+      "title": "Chicago",
+      "year": 2002,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/3ED8cWCXY9zkx77Sd0N5qMbsdDP.jpg"
+    },
+    {
+      "tmdbId": 122,
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg"
+    },
+    {
+      "tmdbId": 70,
+      "title": "Million Dollar Baby",
+      "year": 2004,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/jcfEqKdWF1zeyvECPqp3mkWLct2.jpg"
+    },
+    {
+      "tmdbId": 1353802,
+      "title": "Crash",
+      "year": 2004,
+      "posterUrl": null
+    },
+    {
+      "tmdbId": 1422,
+      "title": "The Departed",
+      "year": 2006,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/nT97ifVT2J1yMQmeq20Qblg61T.jpg"
+    },
+    {
+      "tmdbId": 6977,
+      "title": "No Country for Old Men",
+      "year": 2007,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/6d5XOczc226jECq0LIX0siKtgHR.jpg"
+    },
+    {
+      "tmdbId": 12405,
+      "title": "Slumdog Millionaire",
+      "year": 2008,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/5leCCi7ZF0CawAfM5Qo2ECKPprc.jpg"
+    },
+    {
+      "tmdbId": 12162,
+      "title": "The Hurt Locker",
+      "year": 2008,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/io2dfBJhasvGbgkCX9cCGVOiA99.jpg"
+    },
+    {
+      "tmdbId": 45269,
+      "title": "The King's Speech",
+      "year": 2010,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/pVNKXVQFukBaCz6ML7GH3kiPlQP.jpg"
+    },
+    {
+      "tmdbId": 74643,
+      "title": "The Artist",
+      "year": 2011,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/xYMYV8lMIeQMymuNPBvq3hOnqXw.jpg"
+    },
+    {
+      "tmdbId": 68734,
+      "title": "Argo",
+      "year": 2012,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/m5gPWFZFIp4UJFABgWyLkbXv8GX.jpg"
+    },
+    {
+      "tmdbId": 76203,
+      "title": "12 Years a Slave",
+      "year": 2013,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/xdANQijuNrJaw1HA61rDccME4Tm.jpg"
+    },
+    {
+      "tmdbId": 1204780,
+      "title": "Birdman",
+      "year": 2014,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/rFERAyRuI6nuWKaLTpcjowOoQPC.jpg"
+    },
+    {
+      "tmdbId": 314365,
+      "title": "Spotlight",
+      "year": 2015,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/8DPGG400FgaFWaqcv11n8mRd2NG.jpg"
+    },
+    {
+      "tmdbId": 376867,
+      "title": "Moonlight",
+      "year": 2016,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/qLnfEmPrDjJfPyyddLJPkXmshkp.jpg"
+    },
+    {
+      "tmdbId": 399055,
+      "title": "The Shape of Water",
+      "year": 2017,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/9zfwPffUXpBrEP26yp0q1ckXDcj.jpg"
+    },
+    {
+      "tmdbId": 490132,
+      "title": "Green Book",
+      "year": 2018,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/7BsvSuDQuoqhWmU2fL7W2GOcZHU.jpg"
+    },
+    {
+      "tmdbId": 496243,
+      "title": "Parasite",
+      "year": 2019,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
+    },
+    {
+      "tmdbId": 581734,
+      "title": "Nomadland",
+      "year": 2020,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/8Vc5EOUEIF1EUXuX9eLFf7BvN3P.jpg"
+    },
+    {
+      "tmdbId": 776503,
+      "title": "CODA",
+      "year": 2021,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/BzVjmm8l23rPsijLiNLUzuQtyd.jpg"
+    },
+    {
+      "tmdbId": 545611,
+      "title": "Everything Everywhere All at Once",
+      "year": 2022,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/u68AjlvlutfEIcpmbYpKcdi09ut.jpg"
+    },
+    {
+      "tmdbId": 872585,
+      "title": "Oppenheimer",
+      "year": 2023,
+      "posterUrl": "https://image.tmdb.org/t/p/w342/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+    }
+  ]
+}

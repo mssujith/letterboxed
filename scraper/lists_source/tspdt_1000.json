@@ -1,0 +1,9 @@
+{
+  "id": "tspdt_1000",
+  "name": "They Shoot Pictures 1000 Greatest Films",
+  "source": "TSPDT",
+  "description": "The critics' canon aggregated by TheyShootPictures.com. Large and updated yearly, so configurable.",
+  "tmdbListId": null,
+  "csv": "tspdt_1000.csv",
+  "_howto": "To populate: drop tspdt_1000.csv here with columns Title,Year (optional tmdbId), OR set 'tmdbListId' to a mirroring public TMDB list id. Then re-run build_lists.py."
+}

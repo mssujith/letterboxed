@@ -266,20 +266,35 @@ export interface Superlatives {
   mostRewatched: Film | null;
 }
 
+/**
+ * Comparable release key. Uses the exact TMDB release date (YYYY-MM-DD) when
+ * available so ties within a year resolve to the film that actually came out
+ * first; falls back to a mid-year date when only the year is known so a film
+ * with a precise date still outranks a year-only entry correctly.
+ */
+function releaseKey(f: Film): string | null {
+  if (f.releaseDate && /^\d{4}-\d{2}-\d{2}/.test(f.releaseDate)) return f.releaseDate.slice(0, 10);
+  if (f.year) return `${f.year}-06-30`;
+  return null;
+}
+
 export function superlatives(films: Film[]): Superlatives {
   let longest: Film | null = null;
   let shortest: Film | null = null;
   let oldest: Film | null = null;
   let newest: Film | null = null;
+  let oldestKey: string | null = null;
+  let newestKey: string | null = null;
   let mostRewatched: Film | null = null;
   for (const f of films) {
     if (f.runtime && f.runtime > 0) {
       if (!longest || f.runtime > (longest.runtime ?? 0)) longest = f;
       if (!shortest || f.runtime < (shortest.runtime ?? Infinity)) shortest = f;
     }
-    if (f.year) {
-      if (!oldest || f.year < (oldest.year ?? Infinity)) oldest = f;
-      if (!newest || f.year > (newest.year ?? -Infinity)) newest = f;
+    const rk = releaseKey(f);
+    if (rk) {
+      if (oldestKey == null || rk < oldestKey) { oldest = f; oldestKey = rk; }
+      if (newestKey == null || rk > newestKey) { newest = f; newestKey = rk; }
     }
     if (!mostRewatched || f.watchCount > mostRewatched.watchCount) mostRewatched = f;
   }

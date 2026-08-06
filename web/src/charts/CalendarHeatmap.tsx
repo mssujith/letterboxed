@@ -15,16 +15,28 @@ function toKey(d: Date): string {
 
 /**
  * GitHub-style contribution heatmap. Renders a full span of weeks (columns) x
- * 7 days (rows) covering the min..max dates present in `counts`.
+ * 7 days (rows). By default it covers the min..max dates present in `counts`,
+ * but an explicit `rangeStart`/`rangeEnd` (YYYY-MM-DD) can force a fixed span
+ * (e.g. Jan 1 – Dec 31 of a selected year) so future days render as empty dots.
  */
-export default function CalendarHeatmap({ counts }: { counts: Map<string, number> }) {
+export default function CalendarHeatmap({
+  counts,
+  rangeStart,
+  rangeEnd,
+}: {
+  counts: Map<string, number>;
+  rangeStart?: string;
+  rangeEnd?: string;
+}) {
   const [hover, setHover] = useState<{ day: string; count: number } | null>(null);
 
   const { cells, max } = useMemo(() => {
     const keys = Array.from(counts.keys()).sort();
-    if (keys.length === 0) return { cells: [] as { day: string; count: number }[], max: 0 };
-    const start = new Date(keys[0]);
-    const end = new Date(keys[keys.length - 1]);
+    if (keys.length === 0 && !rangeStart) return { cells: [] as { day: string; count: number }[], max: 0 };
+    const startStr = rangeStart ?? keys[0];
+    const endStr = rangeEnd ?? (keys.length ? keys[keys.length - 1] : startStr);
+    const start = new Date(startStr);
+    const end = new Date(endStr);
     // Snap start back to Sunday.
     start.setDate(start.getDate() - start.getDay());
     const out: { day: string; count: number }[] = [];
@@ -36,7 +48,7 @@ export default function CalendarHeatmap({ counts }: { counts: Map<string, number
       out.push({ day: key, count: c });
     }
     return { cells: out, max: m };
-  }, [counts]);
+  }, [counts, rangeStart, rangeEnd]);
 
   if (cells.length === 0) return <p className="muted">No dated watches in this range.</p>;
 

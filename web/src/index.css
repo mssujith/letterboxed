@@ -377,3 +377,58 @@ tr:hover td {
   margin: 0 6px 6px 0;
   color: var(--muted);
 }
+.pill.clickable {
+  cursor: pointer;
+  transition: border-color 0.12s, color 0.12s;
+}
+.pill.clickable:hover {
+  border-color: var(--green);
+  color: #e4e7eb;
+}
+
+/* Drill-down modal */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.62);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 48px 16px;
+  z-index: 1000;
+  overflow-y: auto;
+}
+.modal {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  width: min(920px, 100%);
+  max-height: 82vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+}
+.modal-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+}
+.modal-body {
+  padding: 16px 20px;
+  overflow-y: auto;
+}
+.modal-close {
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 4px;
+}
+.modal-close:hover {
+  color: #e4e7eb;
+}

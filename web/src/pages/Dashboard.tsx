@@ -1,8 +1,9 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { useData } from "../context/DataContext";
 import FilterBar from "../components/FilterBar";
 import StatCard from "../components/StatCard";
 import ProgressCard from "../components/ProgressCard";
+import FilmModal, { type Drill } from "../components/FilmModal";
 import { RatingBar } from "../charts/Charts";
 import CalendarHeatmap from "../charts/CalendarHeatmap";
 import { activityStats, dailyCounts, headline, ratingDistribution } from "../lib/stats";
@@ -16,6 +17,7 @@ function fmtDate(d: string | null): string {
 
 export default function Dashboard() {
   const { filteredFilms, filters, lists } = useData();
+  const [drill, setDrill] = useState<Drill | null>(null);
 
   const h = useMemo(() => headline(filteredFilms, filters.watchedYear), [filteredFilms, filters.watchedYear]);
   const ratings = useMemo(() => ratingDistribution(filteredFilms), [filteredFilms]);
@@ -26,6 +28,16 @@ export default function Dashboard() {
     () => lists.map((l) => computeProgress(l, watched)),
     [lists, watched]
   );
+
+  const heatRange =
+    filters.watchedYear === "all"
+      ? {}
+      : { rangeStart: `${filters.watchedYear}-01-01`, rangeEnd: `${filters.watchedYear}-12-31` };
+
+  const openRating = (label: string) => {
+    const r = parseFloat(label);
+    setDrill({ title: `Rated ${label}★`, films: filteredFilms.filter((x) => x.rating === r) });
+  };
 
   return (
     <div>
@@ -61,12 +73,12 @@ export default function Dashboard() {
         <StatCard value={activity.perActiveDay.toFixed(1)} label="Films / active day" />
       </div>
       <div className="card" style={{ marginTop: 16 }}>
-        <CalendarHeatmap counts={daily} />
+        <CalendarHeatmap counts={daily} {...heatRange} />
       </div>
 
       <div className="section-title">Rating distribution</div>
       <div className="card">
-        <RatingBar data={ratings} />
+        <RatingBar data={ratings} onSelect={openRating} />
       </div>
 
       <div className="section-title">List progress</div>
@@ -75,6 +87,8 @@ export default function Dashboard() {
           <ProgressCard key={p.list.id} progress={p} />
         ))}
       </div>
+
+      <FilmModal drill={drill} onClose={() => setDrill(null)} />
     </div>
   );
 }

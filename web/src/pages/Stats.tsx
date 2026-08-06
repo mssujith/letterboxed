@@ -1,6 +1,7 @@
-import { useMemo, type ReactNode } from "react";
+import { useMemo, useState, type ReactNode } from "react";
 import { useData } from "../context/DataContext";
 import FilterBar from "../components/FilterBar";
+import FilmModal, { type Drill } from "../components/FilmModal";
 import { HBar, TimeLine, VBar } from "../charts/Charts";
 import {
   byReleaseDecade,
@@ -10,6 +11,7 @@ import {
   bottomRated,
   watchesOverTime,
 } from "../lib/stats";
+import { decadeOf, watchEvents, yearOf } from "../lib/filters";
 import { stars } from "../lib/format";
 import type { Film } from "../types";
 
@@ -22,10 +24,25 @@ function Card({ title, children }: { title: string; children: ReactNode }) {
   );
 }
 
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+function dedupe(films: Film[]): Film[] {
+  const seen = new Set<string>();
+  const out: Film[] = [];
+  for (const f of films) {
+    if (seen.has(f.id)) continue;
+    seen.add(f.id);
+    out.push(f);
+  }
+  return out;
+}
+
 export default function Stats() {
   const { filteredFilms, filters } = useData();
   const f = filteredFilms;
   const wy = filters.watchedYear;
+
+  const [drill, setDrill] = useState<Drill | null>(null);
 
   const timeline = useMemo(() => watchesOverTime(f, wy), [f, wy]);
   const decades = useMemo(() => byReleaseDecade(f), [f]);
@@ -40,29 +57,52 @@ export default function Stats() {
   const worst = useMemo(() => bottomRated(f, 12), [f]);
   const contra = useMemo(() => contrarian(f, 8), [f]);
 
+  const byField = (field: (x: Film) => string[] | undefined, label: string) =>
+    f.filter((x) => (field(x) ?? []).includes(label));
+
+  const openField = (title: string, field: (x: Film) => string[] | undefined) => (label: string) =>
+    setDrill({ title: `${title}: ${label}`, films: byField(field, label) });
+
+  const openDecade = (label: string) => {
+    const d = parseInt(label, 10);
+    setDrill({ title: `Released in the ${label}`, films: f.filter((x) => decadeOf(x.year) === d) });
+  };
+
+  const openTimeline = (label: string) => {
+    const evs = watchEvents(f, wy);
+    const matched =
+      wy === "all"
+        ? evs.filter((e) => String(yearOf(e.date)) === label)
+        : evs.filter((e) => parseInt(e.date.slice(5, 7), 10) - 1 === MONTHS.indexOf(label));
+    const title = wy === "all" ? `Watched in ${label}` : `Watched in ${label} ${wy}`;
+    setDrill({ title, films: dedupe(matched.map((e) => e.film)) });
+  };
+
   return (
     <div>
       <FilterBar />
 
       <Card title={wy === "all" ? "Films watched per year" : `Films watched per month in ${wy}`}>
-        <TimeLine data={timeline} />
+        <TimeLine data={timeline} onSelect={openTimeline} />
       </Card>
 
-      <div className="grid two-col" style={{ marginTop: 16 }}>
-        <Card title="By release decade">
-          <VBar data={decades} color="#ff8000" />
-        </Card>
-        <Card title="Genres">
-          <HBar data={genres} />
-        </Card>
+      <div className="section-title">By release decade</div>
+      <div className="card">
+        <VBar data={decades} height={320} onSelect={openDecade} />
       </div>
 
       <div className="grid two-col" style={{ marginTop: 16 }}>
-        <Card title="Languages">
-          <HBar data={languages} />
+        <Card title="Genres">
+          <HBar data={genres} onSelect={openField("Genre", (x) => x.genres)} />
         </Card>
+        <Card title="Languages">
+          <HBar data={languages} onSelect={openField("Language", (x) => x.languages)} />
+        </Card>
+      </div>
+
+      <div className="grid" style={{ marginTop: 16 }}>
         <Card title="Countries">
-          <HBar data={countries} />
+          <HBar data={countries} onSelect={openField("Country", (x) => x.countries)} />
         </Card>
       </div>
 
@@ -72,7 +112,11 @@ export default function Stats() {
           <p className="muted">No keyword data. Re-run enrich.py to fetch TMDB keywords.</p>
         ) : (
           keywords.map((k) => (
-            <span className="pill" key={k.label}>
+            <span
+              className="pill clickable"
+              key={k.label}
+              onClick={() => setDrill({ title: `Nano-genre: ${k.label}`, films: byField((x) => x.keywords, k.label) })}
+            >
               {k.label} <strong style={{ color: "#e4e7eb" }}>{k.value}</strong>
             </span>
           ))
@@ -82,15 +126,15 @@ export default function Stats() {
       <div className="section-title">People &amp; studios</div>
       <div className="grid two-col">
         <Card title="Top directors">
-          <HBar data={directors} />
+          <HBar data={directors} onSelect={openField("Director", (x) => x.directors)} />
         </Card>
         <Card title="Top actors">
-          <HBar data={actors} />
+          <HBar data={actors} onSelect={openField("Actor", (x) => x.cast)} />
         </Card>
       </div>
       <div className="grid" style={{ marginTop: 16 }}>
         <Card title="Top studios">
-          <HBar data={studios} />
+          <HBar data={studios} onSelect={openField("Studio", (x) => x.studios)} />
         </Card>
       </div>
 
@@ -116,6 +160,8 @@ export default function Stats() {
           <ContrarianTable rows={contra.under} />
         </Card>
       </div>
+
+      <FilmModal drill={drill} onClose={() => setDrill(null)} />
     </div>
   );
 }

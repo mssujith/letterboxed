@@ -7,7 +7,6 @@ import Films from "./pages/Films";
 import Lists from "./pages/Lists";
 import Insights from "./pages/Insights";
 import Watchlist from "./pages/Watchlist";
-import ManualLog from "./pages/ManualLog";
 
 function Nav() {
   const { meta } = useData();
@@ -42,9 +41,6 @@ function Nav() {
           <NavLink to="/watchlist" className={linkClass}>
             Watchlist
           </NavLink>
-          <NavLink to="/log" className={linkClass}>
-            Log
-          </NavLink>
         </div>
         <span className="nav-spacer" />
         {meta && (
@@ -74,8 +70,8 @@ export default function App() {
                 <strong>No data yet.</strong> Run the pipeline in <code>scraper/</code>{" "}
                 (<code>import_csv.py</code> &rarr; <code>enrich.py</code> &rarr;{" "}
                 <code>build_lists.py</code>) to generate{" "}
-                <code>web/public/data/films.json</code>, then reload &mdash; or add films on the{" "}
-                <strong>Log</strong> tab. See the project README for setup steps.
+                <code>web/public/data/films.json</code>, then reload. See{" "}
+                <code>UPDATING.md</code> for the steps.
               </div>
             )}
             <Routes>
@@ -86,7 +82,6 @@ export default function App() {
               <Route path="/films" element={<Films />} />
               <Route path="/lists" element={<Lists />} />
               <Route path="/watchlist" element={<Watchlist />} />
-              <Route path="/log" element={<ManualLog />} />
             </Routes>
           </>
         )}

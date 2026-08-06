@@ -1,6 +1,5 @@
 import {
   createContext,
-  useCallback,
   useContext,
   useEffect,
   useMemo,
@@ -9,13 +8,6 @@ import {
 } from "react";
 import { loadAppData, type AppData } from "../lib/data";
 import { applyFilters, defaultFilters, type Filters } from "../lib/filters";
-import {
-  loadManual,
-  manualToDiary,
-  manualToFilm,
-  saveManual,
-  type ManualEntry,
-} from "../lib/manualLog";
 import type { DiaryEntry, Film } from "../types";
 
 interface DataContextValue {
@@ -30,8 +22,6 @@ interface DataContextValue {
   filteredFilms: Film[];
   /** filteredFilms restricted to diary-logged films (excludes "marked watched"). */
   filteredLogged: Film[];
-  manual: ManualEntry[];
-  setManual: (entries: ManualEntry[]) => void;
 }
 
 const DataContext = createContext<DataContextValue | null>(null);
@@ -40,10 +30,8 @@ export function DataProvider({ children }: { children: ReactNode }) {
   const [data, setData] = useState<AppData>({ films: [], diary: [], meta: null, lists: [], watchlist: [] });
   const [loading, setLoading] = useState(true);
   const [filters, setFilters] = useState<Filters>(defaultFilters);
-  const [manual, setManualState] = useState<ManualEntry[]>([]);
 
   useEffect(() => {
-    setManualState(loadManual());
     let cancelled = false;
     loadAppData().then((d) => {
       if (!cancelled) {
@@ -56,19 +44,8 @@ export function DataProvider({ children }: { children: ReactNode }) {
     };
   }, []);
 
-  const setManual = useCallback((entries: ManualEntry[]) => {
-    saveManual(entries);
-    setManualState(entries);
-  }, []);
-
-  const films = useMemo(
-    () => [...data.films, ...manual.map(manualToFilm)],
-    [data.films, manual]
-  );
-  const diary = useMemo(
-    () => [...data.diary, ...manual.map(manualToDiary)],
-    [data.diary, manual]
-  );
+  const films = data.films;
+  const diary = data.diary;
 
   const filteredFilms = useMemo(() => applyFilters(films, filters), [films, filters]);
   const filteredLogged = useMemo(() => filteredFilms.filter((f) => f.logged), [filteredFilms]);
@@ -84,8 +61,6 @@ export function DataProvider({ children }: { children: ReactNode }) {
     setFilters,
     filteredFilms,
     filteredLogged,
-    manual,
-    setManual,
   };
 
   return <DataContext.Provider value={value}>{children}</DataContext.Provider>;

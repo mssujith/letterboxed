@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import { useData } from "../context/DataContext";
 import FilterBar from "../components/FilterBar";
 import CalendarHeatmap from "../charts/CalendarHeatmap";
-import { dailyCounts } from "../lib/stats";
+import { dailyCountsFromDiary } from "../lib/stats";
 import { yearOf } from "../lib/filters";
 import { stars } from "../lib/format";
 import { Poster } from "../components/PosterCard";
@@ -13,10 +13,11 @@ const MONTHS = [
 ];
 
 export default function Diary() {
-  const { filteredFilms, diary, filters } = useData();
+  const { diary, filters } = useData();
   const wy = filters.watchedYear;
 
-  const counts = useMemo(() => dailyCounts(filteredFilms, wy), [filteredFilms, wy]);
+  const counts = useMemo(() => dailyCountsFromDiary(diary, wy), [diary, wy]);
+  const heatRange = wy === "all" ? {} : { rangeStart: `${wy}-01-01`, rangeEnd: `${wy}-12-31` };
 
   const entries = useMemo(() => {
     return diary
@@ -40,7 +41,7 @@ export default function Diary() {
 
       <div className="section-title">Watch calendar</div>
       <div className="card">
-        <CalendarHeatmap counts={counts} />
+        <CalendarHeatmap counts={counts} {...heatRange} />
       </div>
 
       <div className="section-title">

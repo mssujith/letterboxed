@@ -1,4 +1,4 @@
-import type { Film } from "../types";
+import type { DiaryEntry, Film } from "../types";
 import { decadeOf, watchEvents, yearOf } from "./filters";
 
 export interface Headline {
@@ -306,6 +306,27 @@ export function dailyCounts(films: Film[], watchedYear: number | "all"): Map<str
   const map = new Map<string, number>();
   for (const e of events) {
     const day = e.date.slice(0, 10);
+    map.set(day, (map.get(day) ?? 0) + 1);
+  }
+  return map;
+}
+
+/**
+ * Per-day counts for the activity heatmap, built only from explicit diary
+ * entries (real "Watched Date" logs) rather than films merely marked watched.
+ * Same film logged twice on the same day is collapsed so a single watch never
+ * shows up as a duplicate.
+ */
+export function dailyCountsFromDiary(diary: DiaryEntry[], watchedYear: number | "all"): Map<string, number> {
+  const map = new Map<string, number>();
+  const seen = new Set<string>();
+  for (const e of diary) {
+    if (!e.date) continue;
+    const day = e.date.slice(0, 10);
+    if (watchedYear !== "all" && parseInt(day.slice(0, 4), 10) !== watchedYear) continue;
+    const dedupeKey = `${day}|${e.tmdbId ?? e.title}`;
+    if (seen.has(dedupeKey)) continue;
+    seen.add(dedupeKey);
     map.set(day, (map.get(day) ?? 0) + 1);
   }
   return map;

@@ -6,7 +6,7 @@ import ProgressCard from "../components/ProgressCard";
 import FilmModal, { type Drill } from "../components/FilmModal";
 import { RatingBar } from "../charts/Charts";
 import CalendarHeatmap from "../charts/CalendarHeatmap";
-import { activityStats, dailyCounts, headline, ratingDistribution } from "../lib/stats";
+import { activityStats, dailyCountsFromDiary, headline, ratingDistribution } from "../lib/stats";
 import { computeProgress, watchedTmdbIds } from "../lib/lists";
 import { compactHours } from "../lib/format";
 
@@ -16,12 +16,12 @@ function fmtDate(d: string | null): string {
 }
 
 export default function Dashboard() {
-  const { filteredFilms, filters, lists } = useData();
+  const { filteredFilms, filters, lists, diary } = useData();
   const [drill, setDrill] = useState<Drill | null>(null);
 
   const h = useMemo(() => headline(filteredFilms, filters.watchedYear), [filteredFilms, filters.watchedYear]);
   const ratings = useMemo(() => ratingDistribution(filteredFilms), [filteredFilms]);
-  const daily = useMemo(() => dailyCounts(filteredFilms, filters.watchedYear), [filteredFilms, filters.watchedYear]);
+  const daily = useMemo(() => dailyCountsFromDiary(diary, filters.watchedYear), [diary, filters.watchedYear]);
   const activity = useMemo(() => activityStats(daily), [daily]);
   const watched = useMemo(() => watchedTmdbIds(filteredFilms), [filteredFilms]);
   const progresses = useMemo(

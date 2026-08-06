@@ -106,8 +106,7 @@ export default function Stats() {
 
       <div className="section-title">Contrarian takes (you vs the crowd)</div>
       <p className="muted small" style={{ marginTop: -6, marginBottom: 12 }}>
-        "Crowd" is the <strong>TMDB</strong> community average, rescaled to 5 stars &mdash; not the
-        Letterboxd average (which isn't included in the export and usually runs a bit higher).
+        "Crowd" is the <strong>TMDB</strong> community average, rescaled to 5 stars.
       </p>
       <div className="grid two-col">
         <Card title="You liked more than average">

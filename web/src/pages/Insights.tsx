@@ -55,8 +55,8 @@ function Highlight({ label, film, sub }: { label: string; film: Film | null; sub
 }
 
 export default function Insights() {
-  const { filteredFilms } = useData();
-  const f = filteredFilms;
+  const { filteredLogged } = useData();
+  const f = filteredLogged;
 
   const p = useMemo(() => ratingPersonality(f), [f]);
   const box = useMemo(() => boxOffice(f), [f]);

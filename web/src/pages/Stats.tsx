@@ -38,8 +38,8 @@ function dedupe(films: Film[]): Film[] {
 }
 
 export default function Stats() {
-  const { filteredFilms, filters } = useData();
-  const f = filteredFilms;
+  const { filteredLogged, filters } = useData();
+  const f = filteredLogged;
   const wy = filters.watchedYear;
 
   const [drill, setDrill] = useState<Drill | null>(null);

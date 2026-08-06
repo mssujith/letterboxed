@@ -28,6 +28,8 @@ interface DataContextValue {
   filters: Filters;
   setFilters: (f: Filters) => void;
   filteredFilms: Film[];
+  /** filteredFilms restricted to diary-logged films (excludes "marked watched"). */
+  filteredLogged: Film[];
   manual: ManualEntry[];
   setManual: (entries: ManualEntry[]) => void;
 }
@@ -69,6 +71,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
   );
 
   const filteredFilms = useMemo(() => applyFilters(films, filters), [films, filters]);
+  const filteredLogged = useMemo(() => filteredFilms.filter((f) => f.logged), [filteredFilms]);
 
   const value: DataContextValue = {
     films,
@@ -80,6 +83,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
     filters,
     setFilters,
     filteredFilms,
+    filteredLogged,
     manual,
     setManual,
   };

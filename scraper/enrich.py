@@ -154,6 +154,10 @@ def main() -> None:
             match = pick_match(results, title, year)
             tmdb_id = match["id"] if match else None
 
+        watches = film.get("watches", [])
+        # A real diary entry is any watch that wasn't synthesized from watched.csv
+        # (those are flagged "approx"). Films only "marked watched" have no diary log.
+        diary_watches = [w for w in watches if not w.get("approx")]
         enriched = {
             "id": film["key"],
             "title": title,
@@ -161,9 +165,10 @@ def main() -> None:
             "uri": film.get("uri"),
             "rating": film.get("rating"),
             "liked": film.get("liked", False),
-            "watchedDates": sorted([w["date"] for w in film.get("watches", []) if w.get("date")]),
-            "watchCount": len(film.get("watches", [])),
-            "rewatched": any(w.get("rewatch") for w in film.get("watches", [])),
+            "watchedDates": sorted([w["date"] for w in watches if w.get("date")]),
+            "watchCount": len(watches),
+            "rewatched": any(w.get("rewatch") for w in watches),
+            "logged": len(diary_watches) > 0,
             "reviewCount": len(film.get("reviews", [])),
         }
 

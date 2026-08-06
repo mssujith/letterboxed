@@ -16,11 +16,12 @@ function fmtDate(d: string | null): string {
 }
 
 export default function Dashboard() {
-  const { films, filteredFilms, filters, lists, diary } = useData();
+  const { films, filteredFilms, filteredLogged, filters, lists, diary } = useData();
   const [drill, setDrill] = useState<Drill | null>(null);
 
-  const h = useMemo(() => headline(filteredFilms, filters.watchedYear), [filteredFilms, filters.watchedYear]);
-  const ratings = useMemo(() => ratingDistribution(filteredFilms), [filteredFilms]);
+  // Stats/plots use only diary-logged films; "marked watched" ones are excluded.
+  const h = useMemo(() => headline(filteredLogged, filters.watchedYear), [filteredLogged, filters.watchedYear]);
+  const ratings = useMemo(() => ratingDistribution(filteredLogged), [filteredLogged]);
   const daily = useMemo(() => dailyCountsFromDiary(diary, filters.watchedYear), [diary, filters.watchedYear]);
   const activity = useMemo(() => activityStats(daily), [daily]);
   // List progress reflects everything you've ever watched, not the active filters.
@@ -45,8 +46,12 @@ export default function Dashboard() {
       <FilterBar />
 
       <div className="grid stat-grid">
-        <StatCard value={h.films.toLocaleString()} label="Films" sub={`${h.watches.toLocaleString()} total watches`} />
-        <StatCard value={compactHours(h.minutes)} label="Runtime" sub="of enriched films" />
+        <StatCard
+          value={filteredFilms.length.toLocaleString()}
+          label="Films"
+          sub={`${filteredLogged.length.toLocaleString()} logged \u00b7 ${(filteredFilms.length - filteredLogged.length).toLocaleString()} marked`}
+        />
+        <StatCard value={compactHours(h.minutes)} label="Runtime" sub="logged films" />
         <StatCard value={h.directors.toLocaleString()} label="Directors" />
         <StatCard value={h.rewatches.toLocaleString()} label="Rewatched" />
         <StatCard value={h.likes.toLocaleString()} label="Liked" />

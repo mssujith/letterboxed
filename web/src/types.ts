@@ -8,6 +8,8 @@ export interface Film {
   watchedDates: string[];
   watchCount: number;
   rewatched: boolean;
+  /** True only when the film has a real diary entry (not just "marked watched"). */
+  logged?: boolean;
   reviewCount: number;
   // TMDB enrichment (present when matched)
   tmdbId?: number | null;

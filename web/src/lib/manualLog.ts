@@ -42,6 +42,7 @@ export function manualToFilm(e: ManualEntry): Film {
     watchedDates: e.watchedDate ? [e.watchedDate] : [],
     watchCount: 1,
     rewatched: e.rewatch,
+    logged: true,
     reviewCount: 0,
     tmdbId: null,
     posterUrl: null,

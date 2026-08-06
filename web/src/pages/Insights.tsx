@@ -80,7 +80,7 @@ export default function Insights() {
         <StatCard value={p.spread != null ? p.spread.toFixed(2) : "–"} label="Rating spread" sub="std. deviation" />
         <StatCard value={`${p.pctAboveCrowd}%`} label="Rated above crowd" sub={`${p.pctBelowCrowd}% below`} />
       </div>
-      <div className="notice" style={{ borderLeftColor: "var(--green)" }}>{personalityBlurb(p.generosity)}</div>
+      <div className="notice" style={{ borderLeftColor: "var(--green)", marginTop: 16 }}>{personalityBlurb(p.generosity)}</div>
 
       <div className="section-title">Hidden gems</div>
       <p className="muted small" style={{ marginTop: -6 }}>

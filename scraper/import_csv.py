@@ -17,7 +17,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-from common import EXPORTS_DIR, RAW_FILE, ensure_dirs, write_json
+from common import EXPORTS_DIR, RAW_FILE, ensure_dirs, norm_title, write_json
 
 load_dotenv()
 
@@ -117,10 +117,12 @@ def main() -> None:
     films: dict[str, dict] = {}
 
     def key_of(row: dict) -> str:
-        uri = _get(row, "Letterboxd URI", "URL")
-        if uri:
-            return uri
-        return f"{_get(row, 'Name')}|{_year(row.get('Year'))}"
+        # Key on film identity (normalized title + year). Diary rows carry a
+        # *per-entry* Letterboxd URI, so keying on the URI would split every
+        # diary log into its own film record — separate from the watched/rated
+        # record for the same movie (losing the rating, inflating counts).
+        name = _get(row, "Name") or ""
+        return f"{norm_title(name)}|{_year(row.get('Year'))}"
 
     def ensure_film(row: dict) -> dict:
         k = key_of(row)

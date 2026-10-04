@@ -1357,12 +1357,13 @@
     "title": "Midsommar",
     "year": 2019,
     "uri": "https://boxd.it/jhxe",
-    "rating": null,
+    "rating": 3.0,
     "liked": false,
     "watchedDates": [
-      "2025-08-16"
+      "2025-08-16",
+      "2026-10-01"
     ],
-    "watchCount": 1,
+    "watchCount": 2,
     "rewatched": true,
     "logged": true,
     "reviewCount": 0,
@@ -11367,88 +11368,6 @@
     ]
   },
   {
-    "id": "blackkklansman|2018",
-    "title": "BlacKkKlansman",
-    "year": 2018,
-    "uri": "https://boxd.it/hxL8",
-    "rating": null,
-    "liked": false,
-    "watchedDates": [
-      "2025-08-17"
-    ],
-    "watchCount": 1,
-    "rewatched": false,
-    "logged": false,
-    "reviewCount": 0,
-    "tmdbId": 487558,
-    "posterUrl": "https://image.tmdb.org/t/p/w342/8jxqAvSDoneSKRczaK8v9X5gqBp.jpg",
-    "runtime": 136,
-    "releaseDate": "2018-08-09",
-    "tmdbRating": 7.488,
-    "tmdbVotes": 8174,
-    "budget": 15000000,
-    "revenue": 93411426,
-    "genres": [
-      "Crime",
-      "Comedy",
-      "Drama",
-      "History"
-    ],
-    "languages": [
-      "English"
-    ],
-    "originalLanguage": "en",
-    "primaryLanguage": "English",
-    "countries": [
-      "United States of America"
-    ],
-    "primaryCountry": "United States of America",
-    "studios": [
-      "Legendary Pictures",
-      "QC Entertainment",
-      "Blumhouse Productions",
-      "Monkeypaw Productions",
-      "40 Acres and a Mule Filmworks",
-      "Perfect World Pictures"
-    ],
-    "directors": [
-      "Spike Lee"
-    ],
-    "writers": [
-      "Charlie Wachtel",
-      "David Rabinowitz",
-      "Kevin Willmott",
-      "Spike Lee",
-      "Ron Stallworth"
-    ],
-    "cast": [
-      "John David Washington",
-      "Adam Driver",
-      "Topher Grace",
-      "Laura Harrier",
-      "Alec Baldwin",
-      "Jasper Pääkkönen",
-      "Corey Hawkins",
-      "Paul Walter Hauser"
-    ],
-    "keywords": [
-      "based on novel or book",
-      "ku klux klan",
-      "1970s",
-      "black panther party",
-      "biography",
-      "based on true story",
-      "undercover cop",
-      "racism",
-      "based on memoir or autobiography",
-      "revisionist history",
-      "white supremacy",
-      "thoughtful",
-      "defiant",
-      "kkk rally"
-    ]
-  },
-  {
     "id": "die hard|1988",
     "title": "Die Hard",
     "year": 1988,
@@ -21176,14 +21095,14 @@
     "title": "Memento",
     "year": 2000,
     "uri": "https://boxd.it/2bcK",
-    "rating": 4.0,
-    "liked": false,
+    "rating": 5.0,
+    "liked": true,
     "watchedDates": [
-      "2025-11-27"
+      "2026-08-24"
     ],
     "watchCount": 1,
-    "rewatched": false,
-    "logged": false,
+    "rewatched": true,
+    "logged": true,
     "reviewCount": 0,
     "tmdbId": 77,
     "posterUrl": "https://image.tmdb.org/t/p/w342/nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
@@ -37829,11 +37748,11 @@
     "rating": null,
     "liked": false,
     "watchedDates": [
-      "2025-11-29"
+      "2026-08-30"
     ],
     "watchCount": 1,
-    "rewatched": false,
-    "logged": false,
+    "rewatched": true,
+    "logged": true,
     "reviewCount": 0,
     "tmdbId": 7446,
     "posterUrl": "https://image.tmdb.org/t/p/w342/zAurB9mNxfYRoVrVjAJJwGV3sPg.jpg",
@@ -45967,14 +45886,14 @@
     "title": "Spotlight",
     "year": 2015,
     "uri": "https://boxd.it/a84k",
-    "rating": null,
+    "rating": 4.0,
     "liked": false,
     "watchedDates": [
-      "2026-01-15"
+      "2026-09-20"
     ],
     "watchCount": 1,
-    "rewatched": false,
-    "logged": false,
+    "rewatched": true,
+    "logged": true,
     "reviewCount": 0,
     "tmdbId": 314365,
     "posterUrl": "https://image.tmdb.org/t/p/w342/8DPGG400FgaFWaqcv11n8mRd2NG.jpg",
@@ -59536,11 +59455,11 @@
     "rating": null,
     "liked": false,
     "watchedDates": [
-      "2026-03-06"
+      "2026-09-26"
     ],
     "watchCount": 1,
-    "rewatched": false,
-    "logged": false,
+    "rewatched": true,
+    "logged": true,
     "reviewCount": 0,
     "tmdbId": 1777,
     "posterUrl": "https://image.tmdb.org/t/p/w342/cZ7M343iuiMDc36fSeSm699XQFv.jpg",
@@ -65558,6 +65477,3930 @@
       "1950s",
       "complicated",
       "disheartening"
+    ]
+  },
+  {
+    "id": "citizen ruth|1996",
+    "title": "Citizen Ruth",
+    "year": 1996,
+    "uri": "https://boxd.it/1Pco",
+    "rating": 0.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-06"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 13891,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/ncDIFOY7Mcan2gunAivLjIx3Kj1.jpg",
+    "runtime": 104,
+    "releaseDate": "1996-11-21",
+    "tmdbRating": 6.6,
+    "tmdbVotes": 155,
+    "budget": 3000000,
+    "revenue": 285112,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "languages": [
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "Miramax",
+      "Independent Pictures"
+    ],
+    "directors": [
+      "Alexander Payne"
+    ],
+    "writers": [
+      "Alexander Payne",
+      "Jim Taylor"
+    ],
+    "cast": [
+      "Laura Dern",
+      "Swoosie Kurtz",
+      "Kurtwood Smith",
+      "Mary Kay Place",
+      "Kelly Preston",
+      "M.C. Gainey",
+      "Kenneth Mars",
+      "David Graf"
+    ],
+    "keywords": [
+      "judge",
+      "drug addiction",
+      "extremist",
+      "abortion"
+    ]
+  },
+  {
+    "id": "kwaidan|1964",
+    "title": "Kwaidan",
+    "year": 1964,
+    "uri": "https://boxd.it/1kbY",
+    "rating": 0.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-06"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 30959,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/t9UMfViYl47SdZZatKQ1JKjjCgs.jpg",
+    "runtime": 183,
+    "releaseDate": "1965-01-06",
+    "tmdbRating": 7.727,
+    "tmdbVotes": 478,
+    "budget": null,
+    "revenue": null,
+    "genres": [
+      "Horror",
+      "Fantasy",
+      "Drama"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "originalLanguage": "ja",
+    "primaryLanguage": "Japanese",
+    "countries": [
+      "Japan"
+    ],
+    "primaryCountry": "Japan",
+    "studios": [
+      "Ninjin Club",
+      "TOHO"
+    ],
+    "directors": [
+      "Masaki Kobayashi"
+    ],
+    "writers": [
+      "Yōko Mizuki",
+      "Lafcadio Hearn"
+    ],
+    "cast": [
+      "Michiyo Aratama",
+      "Rentaro Mikuni",
+      "Misako Watanabe",
+      "Kenjirō Ishiyama",
+      "Ranko Akagi",
+      "Fumie Kitahara",
+      "Kappei Matsumoto",
+      "Yoshiko Ieda"
+    ],
+    "keywords": [
+      "samurai",
+      "based on novel or book",
+      "story teller",
+      "snowstorm",
+      "tea",
+      "promise",
+      "snow",
+      "blind",
+      "spirit",
+      "vengeful ghost",
+      "ghost story",
+      "ghost",
+      "sea battle",
+      "japanese folklore",
+      "naval battle",
+      "horror anthology",
+      "ghost in the woods"
+    ]
+  },
+  {
+    "id": "obsession|2025",
+    "title": "Obsession",
+    "year": 2025,
+    "uri": "https://boxd.it/PNqo",
+    "rating": 2.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-08"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 1,
+    "tmdbId": 1724944,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/neah1cRM0IqWl0tSfqT7hq3P8uh.jpg",
+    "runtime": 105,
+    "releaseDate": "2025-01-03",
+    "tmdbRating": null,
+    "tmdbVotes": null,
+    "budget": null,
+    "revenue": null,
+    "genres": [
+      "Horror",
+      "Drama"
+    ],
+    "languages": [
+      "Burmese"
+    ],
+    "originalLanguage": "my",
+    "primaryLanguage": "Burmese",
+    "countries": [],
+    "primaryCountry": "MM",
+    "studios": [],
+    "directors": [
+      "Arkar Soe Oo"
+    ],
+    "writers": [
+      "Arkar Soe Oo",
+      "Arkar Soe Oo",
+      "Robert Winn Htein",
+      "Henry Saw Tun"
+    ],
+    "cast": [
+      "Hlwan Paing",
+      "May Myint Mo",
+      "Min Phone Myat",
+      "Hmu Htate Htar"
+    ],
+    "keywords": [
+      "a swell",
+      "the obsession",
+      "myanmar horror drama"
+    ]
+  },
+  {
+    "id": "arrival of train at la ciotat|1896",
+    "title": "The Arrival of a Train at La Ciotat",
+    "year": 1896,
+    "uri": "https://boxd.it/2aZw",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-09"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 160,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/m5HSlaNCzwV95rAriDmT19el5h1.jpg",
+    "runtime": 1,
+    "releaseDate": "1896-06-30",
+    "tmdbRating": 7.128,
+    "tmdbVotes": 554,
+    "budget": null,
+    "revenue": null,
+    "genres": [
+      "History",
+      "Documentary"
+    ],
+    "languages": [
+      "No Language"
+    ],
+    "originalLanguage": "fr",
+    "primaryLanguage": "French",
+    "countries": [
+      "France"
+    ],
+    "primaryCountry": "France",
+    "studios": [
+      "Lumière"
+    ],
+    "directors": [
+      "Louis Lumière",
+      "Auguste Lumière"
+    ],
+    "writers": [],
+    "cast": [
+      "Madeleine Koehler",
+      "Marcel Koehler",
+      "Marguerite Lumière",
+      "Jeanne-Joséphine Lumière",
+      "Rose Lumière",
+      "Suzanne Lumière"
+    ],
+    "keywords": [
+      "france",
+      "cinema on cinema",
+      "beginning",
+      "train",
+      "railway station",
+      "early cinema",
+      "short film"
+    ]
+  },
+  {
+    "id": "peacock|2024",
+    "title": "Peacock",
+    "year": 2024,
+    "uri": "https://boxd.it/Lm4s",
+    "rating": 3.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-09"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 380282,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/hd0E7hWWzxEx7QtVFtDbHC0geod.jpg",
+    "runtime": 27,
+    "releaseDate": "2024-03-28",
+    "tmdbRating": 7.0,
+    "tmdbVotes": 1,
+    "budget": null,
+    "revenue": null,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "History",
+      "Romance"
+    ],
+    "languages": [
+      "Czech"
+    ],
+    "originalLanguage": "cs",
+    "primaryLanguage": "Czech",
+    "countries": [
+      "Czech Republic"
+    ],
+    "primaryCountry": "Czech Republic",
+    "studios": [
+      "FAMU"
+    ],
+    "directors": [
+      "Ondřej Hudeček"
+    ],
+    "writers": [
+      "Ondřej Hudeček",
+      "Jan Smutný",
+      "Kamila Dohnalová"
+    ],
+    "cast": [
+      "Julius Feldmeier",
+      "Cyril Dobrý",
+      "Marie Poulová",
+      "Tomáš Pivoda",
+      "Lukáš Příkazký",
+      "Lukáš Hlavica",
+      "Stanislav Majer",
+      "Filip Chlud"
+    ],
+    "keywords": [
+      "gay theme",
+      "student film"
+    ]
+  },
+  {
+    "id": "come and see|1985",
+    "title": "Come and See",
+    "year": 1985,
+    "uri": "https://boxd.it/1w9q",
+    "rating": 3.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-11"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 1,
+    "tmdbId": 25237,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/qNbMsKVzigERgJUbwf8pKyZogpb.jpg",
+    "runtime": 142,
+    "releaseDate": "1985-10-17",
+    "tmdbRating": 8.184,
+    "tmdbVotes": 1981,
+    "budget": 5000000,
+    "revenue": 20929648,
+    "genres": [
+      "Drama",
+      "War",
+      "Horror",
+      "History"
+    ],
+    "languages": [
+      "Belarusian",
+      "German",
+      "Russian"
+    ],
+    "originalLanguage": "ru",
+    "primaryLanguage": "Russian",
+    "countries": [
+      "Soviet Union"
+    ],
+    "primaryCountry": "Soviet Union",
+    "studios": [
+      "Belarusfilm",
+      "Mosfilm"
+    ],
+    "directors": [
+      "Elem Klimov"
+    ],
+    "writers": [
+      "Ales Adamovich",
+      "Elem Klimov",
+      "A. Kudryavtsev",
+      "Ada Repina"
+    ],
+    "cast": [
+      "Aleksei Kravchenko",
+      "Olga Mironova",
+      "Liubomiras Laucevičius",
+      "Vladas Bagdonas",
+      "Jüri Lumiste",
+      "Viktors Lorencs",
+      "Kazimir Rabetsky",
+      "Yevgeni Tilicheyev"
+    ],
+    "keywords": [
+      "nazi",
+      "war crimes",
+      "insanity",
+      "world war ii",
+      "surrealism",
+      "wehrmacht",
+      "teenage girl",
+      "atrocity",
+      "genocide",
+      "russian army",
+      "mine field",
+      "horrors of war",
+      "premature aging",
+      "byelorussia",
+      "children in wartime",
+      "grimdark",
+      "schocking"
+    ]
+  },
+  {
+    "id": "enemy|2013",
+    "title": "Enemy",
+    "year": 2013,
+    "uri": "https://boxd.it/5xtO",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-13"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 522815,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/uRliduDz4zOiN8POcQsQI13Zlff.jpg",
+    "runtime": 130,
+    "releaseDate": "2013-08-30",
+    "tmdbRating": 7.6,
+    "tmdbVotes": 8,
+    "budget": null,
+    "revenue": null,
+    "genres": [],
+    "languages": [
+      "Hindi",
+      "Tamil"
+    ],
+    "originalLanguage": "ta",
+    "primaryLanguage": "Tamil",
+    "countries": [],
+    "primaryCountry": "IN",
+    "studios": [],
+    "directors": [],
+    "writers": [],
+    "cast": [
+      "Prem Kumar",
+      "Dimple Chopade"
+    ],
+    "keywords": []
+  },
+  {
+    "id": "incendies|2010",
+    "title": "Incendies",
+    "year": 2010,
+    "uri": "https://boxd.it/Msm",
+    "rating": 0.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-12"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 1,
+    "tmdbId": 46738,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/yH6DAQVgbyj72S66gN4WWVoTjuf.jpg",
+    "runtime": 131,
+    "releaseDate": "2010-09-17",
+    "tmdbRating": 8.104,
+    "tmdbVotes": 3499,
+    "budget": 6800000,
+    "revenue": 6788659,
+    "genres": [
+      "Drama",
+      "War",
+      "Mystery"
+    ],
+    "languages": [
+      "French",
+      "Arabic",
+      "English"
+    ],
+    "originalLanguage": "fr",
+    "primaryLanguage": "French",
+    "countries": [
+      "Canada",
+      "France"
+    ],
+    "primaryCountry": "Canada",
+    "studios": [
+      "TS Productions",
+      "Phi Group",
+      "micro_scope"
+    ],
+    "directors": [
+      "Denis Villeneuve"
+    ],
+    "writers": [
+      "Wajdi Mouawad",
+      "Valérie Beaugrand-Champagne",
+      "Denis Villeneuve"
+    ],
+    "cast": [
+      "Lubna Azabal",
+      "Mélissa Désormeaux-Poulin",
+      "Maxim Gaudette",
+      "Rémy Girard",
+      "Allen Altman",
+      "Abdelghafour Elaaziz",
+      "Dominique Briand",
+      "Frédéric Paquet"
+    ],
+    "keywords": [
+      "middle east",
+      "militia",
+      "orphanage",
+      "family secrets",
+      "massacre",
+      "twins",
+      "will",
+      "dark secret",
+      "domineering",
+      "search for truth",
+      "lebanese civil war",
+      "dark history",
+      "lebanon",
+      "traumatic past",
+      "intense",
+      "horrified",
+      "west asia"
+    ]
+  },
+  {
+    "id": "ex machina|2015",
+    "title": "Ex Machina",
+    "year": 2015,
+    "uri": "https://boxd.it/7T2k",
+    "rating": 3.0,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-13"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 264660,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/dmJW8IAKHKxFNiUnoDR7JfsK7Rp.jpg",
+    "runtime": 108,
+    "releaseDate": "2015-01-21",
+    "tmdbRating": 7.57,
+    "tmdbVotes": 14640,
+    "budget": 15000000,
+    "revenue": 36869414,
+    "genres": [
+      "Drama",
+      "Science Fiction"
+    ],
+    "languages": [
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United Kingdom",
+      "United States of America"
+    ],
+    "primaryCountry": "United Kingdom",
+    "studios": [
+      "DNA Films",
+      "Film4 Productions",
+      "IAC Films",
+      "Scott Rudin Productions"
+    ],
+    "directors": [
+      "Alex Garland"
+    ],
+    "writers": [
+      "Alex Garland"
+    ],
+    "cast": [
+      "Domhnall Gleeson",
+      "Alicia Vikander",
+      "Oscar Isaac",
+      "Sonoya Mizuno",
+      "Corey Johnson",
+      "Claire Selby",
+      "Symara A. Templeman",
+      "Gana Bayarsaikhan"
+    ],
+    "keywords": [
+      "android",
+      "dancing",
+      "friendship",
+      "man vs machine",
+      "distrust",
+      "artificial intelligence (a.i.)",
+      "isolation",
+      "technology",
+      "manipulation",
+      "high technology",
+      "treason",
+      "deception",
+      "norway",
+      "laboratory",
+      "robot",
+      "power outage",
+      "surveillance",
+      "rich",
+      "surveillance camera",
+      "consciousness",
+      "employer employee relationship",
+      "isolated house",
+      "wealthy man",
+      "existentialism",
+      "lockdown",
+      "emotional intelligence",
+      "female cyborg",
+      "human android relationship",
+      "tech company",
+      "critical",
+      "intense"
+    ]
+  },
+  {
+    "id": "no other choice|2025",
+    "title": "No Other Choice",
+    "year": 2025,
+    "uri": "https://boxd.it/nKiA",
+    "rating": 3.0,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-13"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 639988,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/vc2S0dvgpsM0XfSiXZDMVkRCSSU.jpg",
+    "runtime": 139,
+    "releaseDate": "2025-09-24",
+    "tmdbRating": 7.509,
+    "tmdbVotes": 1322,
+    "budget": 12200000,
+    "revenue": 40223568,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Thriller"
+    ],
+    "languages": [
+      "English",
+      "Korean"
+    ],
+    "originalLanguage": "ko",
+    "primaryLanguage": "Korean",
+    "countries": [
+      "South Korea",
+      "France"
+    ],
+    "primaryCountry": "South Korea",
+    "studios": [
+      "CJ ENM Studios",
+      "Moho Film",
+      "KG Productions"
+    ],
+    "directors": [
+      "Park Chan-wook"
+    ],
+    "writers": [
+      "Donald E. Westlake",
+      "Park Chan-wook",
+      "Lee Kyoung-mi",
+      "Don McKellar",
+      "Lee Ja-hye"
+    ],
+    "cast": [
+      "Lee Byung-hun",
+      "Son Ye-jin",
+      "Park Hee-soon",
+      "Lee Sung-min",
+      "Yeom Hye-ran",
+      "Cha Seung-won",
+      "Oh Dal-su",
+      "Kim Woo-seung"
+    ],
+    "keywords": [
+      "based on novel or book",
+      "dark comedy",
+      "remake",
+      "social commentary",
+      "working class",
+      "unemployment",
+      "paper industry",
+      "unemployed",
+      "devoted family man",
+      "murder plot",
+      "social criticism",
+      "south korea",
+      "amused",
+      "economic hardship",
+      "desperate father",
+      "anti capitalism"
+    ]
+  },
+  {
+    "id": "e t extra terrestrial|1982",
+    "title": "E.T. the Extra-Terrestrial",
+    "year": 1982,
+    "uri": "https://boxd.it/2a1G",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-15"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 601,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
+    "runtime": 115,
+    "releaseDate": "1982-06-11",
+    "tmdbRating": 7.518,
+    "tmdbVotes": 12305,
+    "budget": 10500000,
+    "revenue": 797307407,
+    "genres": [
+      "Adventure",
+      "Science Fiction",
+      "Family"
+    ],
+    "languages": [
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "Universal Pictures",
+      "Amblin Entertainment"
+    ],
+    "directors": [
+      "Steven Spielberg"
+    ],
+    "writers": [
+      "Melissa Mathison"
+    ],
+    "cast": [
+      "Henry Thomas",
+      "Drew Barrymore",
+      "Robert MacNaughton",
+      "Peter Coyote",
+      "Dee Wallace",
+      "Erika Eleniak",
+      "K.C. Martel",
+      "C. Thomas Howell"
+    ],
+    "keywords": [
+      "farewell",
+      "california",
+      "space marine",
+      "operation",
+      "flying saucer",
+      "nasa",
+      "homesickness",
+      "loss of loved one",
+      "prosecution",
+      "halloween",
+      "alien",
+      "extraterrestrial",
+      "single mother",
+      "alien contact",
+      "homesick",
+      "empathy",
+      "alien friendship",
+      "child protagonist"
+    ]
+  },
+  {
+    "id": "west side story|2021",
+    "title": "West Side Story",
+    "year": 2021,
+    "uri": "https://boxd.it/iwt0",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-15"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 511809,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/yfz3IUoYYSY32tkb97HlUBGFsnh.jpg",
+    "runtime": 156,
+    "releaseDate": "2021-12-08",
+    "tmdbRating": 6.903,
+    "tmdbVotes": 1853,
+    "budget": 100000000,
+    "revenue": 76016171,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Crime"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "20th Century Studios",
+      "Amblin Entertainment",
+      "TSG Entertainment"
+    ],
+    "directors": [
+      "Steven Spielberg"
+    ],
+    "writers": [
+      "Tony Kushner",
+      "Arthur Laurents",
+      "Jerome Robbins",
+      "Stephen Sondheim",
+      "Stephen Sondheim"
+    ],
+    "cast": [
+      "Ansel Elgort",
+      "Rachel Zegler",
+      "Ariana DeBose",
+      "David Alvarez",
+      "Mike Faist",
+      "Brian d'Arcy James",
+      "Corey Stoll",
+      "Rita Moreno"
+    ],
+    "keywords": [
+      "new york city",
+      "dancing",
+      "dance",
+      "street gang",
+      "love at first sight",
+      "forbidden love",
+      "musical",
+      "based on play or musical",
+      "interracial relationship",
+      "racism",
+      "young love",
+      "1950s",
+      "latino"
+    ]
+  },
+  {
+    "id": "french connection|1971",
+    "title": "The French Connection",
+    "year": 1971,
+    "uri": "https://boxd.it/296g",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-15"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 1051,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/pH4saPwMjhnVGwmSH6RkMaHrt3s.jpg",
+    "runtime": 104,
+    "releaseDate": "1971-10-09",
+    "tmdbRating": 7.491,
+    "tmdbVotes": 2222,
+    "budget": 1800000,
+    "revenue": 41200000,
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "D'Antoni Productions",
+      "Schine-Moore Productions",
+      "20th Century Fox"
+    ],
+    "directors": [
+      "William Friedkin"
+    ],
+    "writers": [
+      "Ernest Tidyman",
+      "Robin Moore"
+    ],
+    "cast": [
+      "Gene Hackman",
+      "Roy Scheider",
+      "Fernando Rey",
+      "Tony Lo Bianco",
+      "Marcel Bozzuffi",
+      "Frédéric de Pasquale",
+      "Bill Hickman",
+      "Ann Rebbot"
+    ],
+    "keywords": [
+      "drug dealer",
+      "new york city",
+      "police brutality",
+      "drug smuggling",
+      "undercover agent",
+      "gangster",
+      "heroin",
+      "marseille, france",
+      "paranoia",
+      "night life",
+      "attempted murder",
+      "drug mule",
+      "train hijacking",
+      "police stakeout",
+      "police pursuit",
+      "popeye",
+      "academy award winner"
+    ]
+  },
+  {
+    "id": "satantango|1994",
+    "title": "Satantango",
+    "year": 1994,
+    "uri": "https://boxd.it/1j9M",
+    "rating": 0.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-15"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 1,
+    "tmdbId": 31414,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/y38z0v4HJ12MHiKddLEoFlvPiBt.jpg",
+    "runtime": 432,
+    "releaseDate": "1994-04-28",
+    "tmdbRating": 8.046,
+    "tmdbVotes": 327,
+    "budget": 1500000,
+    "revenue": null,
+    "genres": [
+      "Drama"
+    ],
+    "languages": [
+      "Hungarian"
+    ],
+    "originalLanguage": "hu",
+    "primaryLanguage": "Hungarian",
+    "countries": [
+      "Germany",
+      "Hungary",
+      "Switzerland"
+    ],
+    "primaryCountry": "Hungary",
+    "studios": [
+      "Von Vietinghoff Filmproduktion",
+      "Vega Film",
+      "Mozgókép Innovációs Társulás és Alapítvány",
+      "Magyar Televízió",
+      "TSR"
+    ],
+    "directors": [
+      "Béla Tarr"
+    ],
+    "writers": [
+      "Béla Tarr",
+      "Mihály Víg",
+      "Péter Dobai",
+      "Barna Mihók",
+      "László Krasznahorkai"
+    ],
+    "cast": [
+      "Mihály Víg",
+      "Putyi Horváth",
+      "Székely B. Miklós",
+      "Erika Bók",
+      "László feLugossy",
+      "Alfréd Járai",
+      "János Derzsi",
+      "Irén Szajki"
+    ],
+    "keywords": [
+      "farm",
+      "countryside",
+      "based on novel or book",
+      "cat",
+      "rain",
+      "hungary",
+      "loneliness",
+      "art house",
+      "poverty",
+      "black and white",
+      "writer",
+      "alcoholic",
+      "mental illness",
+      "remodernist",
+      "nonlinear timeline",
+      "multiple perspectives",
+      "contemplative cinema",
+      "powerful"
+    ]
+  },
+  {
+    "id": "we re millers|2013",
+    "title": "We're the Millers",
+    "year": 2013,
+    "uri": "https://boxd.it/4srQ",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-17"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 138832,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/qF2LJ0jwWrtXSuT4AFD5OS2IqaT.jpg",
+    "runtime": 110,
+    "releaseDate": "2013-08-07",
+    "tmdbRating": 6.841,
+    "tmdbVotes": 9702,
+    "budget": 37000000,
+    "revenue": 270000000,
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "languages": [
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United Kingdom",
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "New Line Cinema",
+      "Newman/Tooley Films",
+      "Bad Version",
+      "Slap Happy Productions",
+      "Heyday Films",
+      "BenderSpink"
+    ],
+    "directors": [
+      "Rawson Marshall Thurber"
+    ],
+    "writers": [
+      "Bob Fisher",
+      "Steve Faber",
+      "Sean Anders",
+      "John Morris",
+      "Bob Fisher"
+    ],
+    "cast": [
+      "Jennifer Aniston",
+      "Jason Sudeikis",
+      "Emma Roberts",
+      "Will Poulter",
+      "Ed Helms",
+      "Nick Offerman",
+      "Kathryn Hahn",
+      "Molly C. Quinn"
+    ],
+    "keywords": [
+      "drug dealer",
+      "mexico",
+      "drug smuggling",
+      "fireworks",
+      "camping",
+      "denver, colorado",
+      "carnival",
+      "witness protection",
+      "stripper",
+      "road trip",
+      "breaking the fourth wall",
+      "marijuana",
+      "drug stealing",
+      "man child",
+      "drugs",
+      "drug lord",
+      "first kiss",
+      "strip tease",
+      "dea",
+      "homeless girl",
+      "drug syndicate",
+      "drug gang",
+      "4th of july",
+      "drug money",
+      "pretend family",
+      "rv"
+    ]
+  },
+  {
+    "id": "watching detectives|2007",
+    "title": "Watching the Detectives",
+    "year": 2007,
+    "uri": "https://boxd.it/1B3i",
+    "rating": 0.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-16"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 22100,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/wm2TaGTXpy30WNLuZaqagIMbf1K.jpg",
+    "runtime": 94,
+    "releaseDate": "2007-05-01",
+    "tmdbRating": 6.3,
+    "tmdbVotes": 202,
+    "budget": 2000000,
+    "revenue": null,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "Peace Arch Entertainment Group",
+      "Hart-Lunsford Pictures",
+      "Plum Pictures"
+    ],
+    "directors": [
+      "Paul Soter"
+    ],
+    "writers": [
+      "Paul Soter"
+    ],
+    "cast": [
+      "Cillian Murphy",
+      "Lucy Liu",
+      "Jason Sudeikis",
+      "Michael Panes",
+      "Heather Burns",
+      "Callie Thorne",
+      "Michael Yurchak",
+      "Lonny Ross"
+    ],
+    "keywords": [
+      "mischievous",
+      "absurd"
+    ]
+  },
+  {
+    "id": "in heart of sea|2015",
+    "title": "In the Heart of the Sea",
+    "year": 2015,
+    "uri": "https://boxd.it/6avY",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-17"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 205775,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/weVvNPfk6FM9vBg3BXtRtNAmiYM.jpg",
+    "runtime": 122,
+    "releaseDate": "2015-12-03",
+    "tmdbRating": 6.791,
+    "tmdbVotes": 4528,
+    "budget": 100000000,
+    "revenue": 93900000,
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Adventure",
+      "Action",
+      "History"
+    ],
+    "languages": [
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "Spain",
+      "United States of America",
+      "Italy"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "Imagine Entertainment",
+      "Spring Creek Pictures",
+      "Roth Films",
+      "Kjam Media",
+      "Cott Productions",
+      "Surf Film"
+    ],
+    "directors": [
+      "Ron Howard"
+    ],
+    "writers": [
+      "Rick Jaffa",
+      "Charles Leavitt",
+      "Nathaniel Philbrick",
+      "Amanda Silver",
+      "Charles Leavitt"
+    ],
+    "cast": [
+      "Chris Hemsworth",
+      "Benjamin Walker",
+      "Cillian Murphy",
+      "Brendan Gleeson",
+      "Ben Whishaw",
+      "Michelle Fairley",
+      "Tom Holland",
+      "Paul Anderson"
+    ],
+    "keywords": [
+      "sea",
+      "suicide",
+      "ship",
+      "ocean",
+      "whale",
+      "shipwreck",
+      "hunger",
+      "based on true story",
+      "survival",
+      "stranded",
+      "cannibal",
+      "whaling",
+      "death",
+      "new england",
+      "lost at sea",
+      "whaling ship",
+      "starvation",
+      "19th century",
+      "whale oil",
+      "nantucket"
+    ]
+  },
+  {
+    "id": "idiocracy|2006",
+    "title": "Idiocracy",
+    "year": 2006,
+    "uri": "https://boxd.it/20RW",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-17"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 7512,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/6cTHBq49ApwsJaRr3ojlY1cmiXk.jpg",
+    "runtime": 85,
+    "releaseDate": "2006-09-01",
+    "tmdbRating": 6.387,
+    "tmdbVotes": 3835,
+    "budget": 2400000,
+    "revenue": 495303,
+    "genres": [
+      "Comedy",
+      "Science Fiction",
+      "Adventure",
+      "Thriller"
+    ],
+    "languages": [
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "20th Century Fox",
+      "Ternion Pictures"
+    ],
+    "directors": [
+      "Mike Judge"
+    ],
+    "writers": [
+      "Mike Judge",
+      "Etan Cohen",
+      "Mike Judge"
+    ],
+    "cast": [
+      "Luke Wilson",
+      "Maya Rudolph",
+      "Dax Shepard",
+      "Terry Crews",
+      "Anthony 'Citric' Campos",
+      "David Herman",
+      "Sonny Castillo",
+      "Kevin McAfee"
+    ],
+    "keywords": [
+      "future",
+      "army",
+      "prostitute",
+      "usa president",
+      "congress",
+      "experiment",
+      "arena",
+      "capitalism",
+      "dystopia",
+      "dark comedy",
+      "hibernation",
+      "stupidity",
+      "junk food",
+      "social satire",
+      "brainwashing",
+      "surveillance",
+      "masturbation",
+      "u.s. congress",
+      "mass media",
+      "aftercreditsstinger",
+      "commercialism",
+      "thoughtful",
+      "cryonics",
+      "anti-intellectualism",
+      "cautionary",
+      "hilarious"
+    ]
+  },
+  {
+    "id": "celebration|1998",
+    "title": "The Celebration",
+    "year": 1998,
+    "uri": "https://boxd.it/2aCM",
+    "rating": 3.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-23"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 309,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/2LRzNq41yrY8EjCnD1S8sCCPvKk.jpg",
+    "runtime": 101,
+    "releaseDate": "1998-06-19",
+    "tmdbRating": 7.689,
+    "tmdbVotes": 1326,
+    "budget": 1300000,
+    "revenue": null,
+    "genres": [
+      "Drama"
+    ],
+    "languages": [
+      "Danish",
+      "German",
+      "English"
+    ],
+    "originalLanguage": "da",
+    "primaryLanguage": "Danish",
+    "countries": [
+      "Denmark",
+      "Sweden"
+    ],
+    "primaryCountry": "Denmark",
+    "studios": [
+      "DR",
+      "SVT",
+      "Nimbus Film"
+    ],
+    "directors": [
+      "Thomas Vinterberg"
+    ],
+    "writers": [
+      "Thomas Vinterberg",
+      "Mogens Rukov",
+      "Thomas Vinterberg"
+    ],
+    "cast": [
+      "Ulrich Thomsen",
+      "Henning Moritzen",
+      "Thomas Bo Larsen",
+      "Paprika Steen",
+      "Birthe Neumann",
+      "Trine Dyrholm",
+      "Helle Dolleris",
+      "Therese Glahn"
+    ],
+    "keywords": [
+      "daughter",
+      "depression",
+      "infidelity",
+      "child abuse",
+      "suicide",
+      "parent child relationship",
+      "birthday",
+      "country house",
+      "twin sister",
+      "trauma",
+      "racism",
+      "family reunion",
+      "denial",
+      "lecture",
+      "death of sister",
+      "drunkenness",
+      "dinner party",
+      "angry",
+      "kids",
+      "child sexual abuse",
+      "dramatic",
+      "dogme 95",
+      "intense",
+      "depressing"
+    ]
+  },
+  {
+    "id": "matrix resurrections|2021",
+    "title": "The Matrix Resurrections",
+    "year": 2021,
+    "uri": "https://boxd.it/n87k",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-24"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 624860,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/8c4a8kE7PizaGQQnditMmI1xbRp.jpg",
+    "runtime": 148,
+    "releaseDate": "2021-12-16",
+    "tmdbRating": 6.302,
+    "tmdbVotes": 6759,
+    "budget": 190000000,
+    "revenue": 156497322,
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "languages": [
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "Warner Bros. Pictures",
+      "Village Roadshow Pictures",
+      "Venus Castina Productions"
+    ],
+    "directors": [
+      "Lana Wachowski"
+    ],
+    "writers": [
+      "Lana Wachowski",
+      "David Mitchell",
+      "Lana Wachowski",
+      "Aleksandar Hemon",
+      "Lilly Wachowski"
+    ],
+    "cast": [
+      "Keanu Reeves",
+      "Carrie-Anne Moss",
+      "Yahya Abdul-Mateen II",
+      "Jonathan Groff",
+      "Jessica Henwick",
+      "Neil Patrick Harris",
+      "Jada Pinkett Smith",
+      "Priyanka Chopra Jonas"
+    ],
+    "keywords": [
+      "future",
+      "man vs machine",
+      "underground world",
+      "artificial intelligence (a.i.)",
+      "computer",
+      "virtual reality",
+      "prophecy",
+      "dystopia",
+      "sequel",
+      "cyberpunk",
+      "aftercreditsstinger",
+      "dream world",
+      "woman director",
+      "gnosticism",
+      "grand"
+    ]
+  },
+  {
+    "id": "hiroshima mon amour|1959",
+    "title": "Hiroshima Mon Amour",
+    "year": 1959,
+    "uri": "https://boxd.it/22WY",
+    "rating": 0.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-26"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 5544,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/zieczjWnvalaxwX5EQASEx0on5f.jpg",
+    "runtime": 92,
+    "releaseDate": "1959-06-10",
+    "tmdbRating": 7.67,
+    "tmdbVotes": 961,
+    "budget": null,
+    "revenue": 3193,
+    "genres": [
+      "Drama",
+      "History",
+      "Romance"
+    ],
+    "languages": [
+      "English",
+      "French",
+      "Japanese"
+    ],
+    "originalLanguage": "fr",
+    "primaryLanguage": "French",
+    "countries": [
+      "France",
+      "Japan"
+    ],
+    "primaryCountry": "France",
+    "studios": [
+      "Argos films",
+      "Como Films",
+      "Daiei Film",
+      "Pathé Overseas"
+    ],
+    "directors": [
+      "Alain Resnais"
+    ],
+    "writers": [
+      "Marguerite Duras"
+    ],
+    "cast": [
+      "Emmanuelle Riva",
+      "Eiji Okada",
+      "Stella Dassas",
+      "Pierre Barbaud",
+      "Bernard Fresson"
+    ],
+    "keywords": [
+      "new love",
+      "france",
+      "atomic bomb",
+      "return",
+      "lover",
+      "architect",
+      "hiroshima, japan",
+      "black and white",
+      "family",
+      "extramarital affair",
+      "anti war"
+    ]
+  },
+  {
+    "id": "kishkindha kaandam|2024",
+    "title": "Kishkindha Kaandam",
+    "year": 2024,
+    "uri": "https://boxd.it/CLOM",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-26"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 1025125,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/rniBYHDRs6e8qMkPr4D4ZE5uMhF.jpg",
+    "runtime": 125,
+    "releaseDate": "2024-09-12",
+    "tmdbRating": 7.71,
+    "tmdbVotes": 62,
+    "budget": 830000,
+    "revenue": 8920490,
+    "genres": [
+      "Thriller",
+      "Mystery",
+      "Drama",
+      "Adventure"
+    ],
+    "languages": [
+      "Malayalam"
+    ],
+    "originalLanguage": "ml",
+    "primaryLanguage": "Malayalam",
+    "countries": [
+      "India"
+    ],
+    "primaryCountry": "India",
+    "studios": [
+      "Goodwill Entertainments"
+    ],
+    "directors": [
+      "Dinjith Ayyathan"
+    ],
+    "writers": [
+      "Bahul Ramesh",
+      "Bahul Ramesh"
+    ],
+    "cast": [
+      "Asif Ali",
+      "Aparna Balamurali",
+      "Vijayaraghavan",
+      "Vyshnavi Raj",
+      "Ashokan",
+      "Jagadish",
+      "Nizhalgal Ravi",
+      "Major Ravi"
+    ],
+    "keywords": []
+  },
+  {
+    "id": "aavesham|2024",
+    "title": "Aavesham",
+    "year": 2024,
+    "uri": "https://boxd.it/F2fe",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-26"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 1084812,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/k5RWPaNjgRcNvGoawYaQHQwyctI.jpg",
+    "runtime": 156,
+    "releaseDate": "2024-04-11",
+    "tmdbRating": 7.472,
+    "tmdbVotes": 109,
+    "budget": 3400000,
+    "revenue": null,
+    "genres": [
+      "Comedy",
+      "Action"
+    ],
+    "languages": [
+      "Hindi",
+      "Kannada",
+      "Malayalam"
+    ],
+    "originalLanguage": "ml",
+    "primaryLanguage": "Malayalam",
+    "countries": [
+      "India"
+    ],
+    "primaryCountry": "India",
+    "studios": [
+      "Anwar Rasheed Entertainments",
+      "Fahadh Faasil and Friends Private Limited"
+    ],
+    "directors": [
+      "Jithu Madhavan"
+    ],
+    "writers": [
+      "Vinayak Sasikumar",
+      "Jithu Madhavan",
+      "MC Couper"
+    ],
+    "cast": [
+      "Fahadh Faasil",
+      "Hipster",
+      "Mithun Jai Sankar",
+      "Roshan Shanavas",
+      "Sajin Gopu",
+      "Midhun Midhutty",
+      "Krishna Kumar",
+      "Freestyle Krishna"
+    ],
+    "keywords": []
+  },
+  {
+    "id": "memories|2013",
+    "title": "Memories",
+    "year": 2013,
+    "uri": "https://boxd.it/6sNc",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-26"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 217389,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/uyj5Yg0ricQTB9UZzd4ZDRYV9NF.jpg",
+    "runtime": 132,
+    "releaseDate": "2013-08-08",
+    "tmdbRating": 7.059,
+    "tmdbVotes": 51,
+    "budget": null,
+    "revenue": null,
+    "genres": [
+      "Crime",
+      "Thriller"
+    ],
+    "languages": [
+      "English",
+      "Malayalam"
+    ],
+    "originalLanguage": "ml",
+    "primaryLanguage": "Malayalam",
+    "countries": [
+      "India"
+    ],
+    "primaryCountry": "India",
+    "studios": [
+      "Murali Films"
+    ],
+    "directors": [
+      "Jeethu Joseph"
+    ],
+    "writers": [
+      "Jeethu Joseph",
+      "Sejo John"
+    ],
+    "cast": [
+      "Prithviraj Sukumaran",
+      "Miya George",
+      "Nedumudi Venu",
+      "Meghana Raj",
+      "Vijayaraghavan",
+      "Rahul Madhav",
+      "Suresh Krishna",
+      "S.P. Sreekumar"
+    ],
+    "keywords": [
+      "murder",
+      "serial killer",
+      "memory",
+      "terrorism",
+      "psychic",
+      "alcoholic"
+    ]
+  },
+  {
+    "id": "scam 1992 harshad mehta story|2020",
+    "title": "Scam 1992: The Harshad Mehta Story",
+    "year": 2020,
+    "uri": "https://boxd.it/shWQ",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-26"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0
+  },
+  {
+    "id": "satya|1998",
+    "title": "Satya",
+    "year": 1998,
+    "uri": "https://boxd.it/1BNq",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-08-26"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 21502,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/wwgpEEGU5RVu5hM7AZa6oiivcln.jpg",
+    "runtime": 170,
+    "releaseDate": "1998-07-03",
+    "tmdbRating": 7.256,
+    "tmdbVotes": 80,
+    "budget": 310000,
+    "revenue": 2300000,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "languages": [
+      "Marathi",
+      "Hindi"
+    ],
+    "originalLanguage": "hi",
+    "primaryLanguage": "Hindi",
+    "countries": [
+      "India"
+    ],
+    "primaryCountry": "India",
+    "studios": [
+      "Varma Corporation"
+    ],
+    "directors": [
+      "Ram Gopal Varma"
+    ],
+    "writers": [
+      "Anurag Kashyap",
+      "Saurabh Shukla",
+      "Ram Gopal Varma",
+      "Gulzar"
+    ],
+    "cast": [
+      "J. D. Chakravarthi",
+      "Manoj Bajpayee",
+      "Urmila Matondkar",
+      "Shefali Shah",
+      "Saurabh Shukla",
+      "Govind Namdeo",
+      "Makrand Deshpande",
+      "Paresh Rawal"
+    ],
+    "keywords": [
+      "crime boss",
+      "mafia",
+      "criminal underworld"
+    ]
+  },
+  {
+    "id": "king s man|2021",
+    "title": "The King's Man",
+    "year": 2021,
+    "uri": "https://boxd.it/h714",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-03"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 476669,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/iMjSfMUuCkCE7z5fzGtjeDusPD3.jpg",
+    "runtime": 131,
+    "releaseDate": "2021-12-22",
+    "tmdbRating": 6.702,
+    "tmdbVotes": 5252,
+    "budget": 100000000,
+    "revenue": 125897478,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "languages": [
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United Kingdom",
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "Marv",
+      "Cloudy Productions",
+      "20th Century Studios",
+      "TSG Entertainment"
+    ],
+    "directors": [
+      "Matthew Vaughn"
+    ],
+    "writers": [
+      "Matthew Vaughn",
+      "Karl Gajdusek",
+      "Matthew Vaughn",
+      "Mark Millar",
+      "Dave Gibbons"
+    ],
+    "cast": [
+      "Ralph Fiennes",
+      "Gemma Arterton",
+      "Rhys Ifans",
+      "Matthew Goode",
+      "Tom Hollander",
+      "Harris Dickinson",
+      "Daniel Brühl",
+      "Djimon Hounsou"
+    ],
+    "keywords": [
+      "london, england",
+      "world war i",
+      "spy",
+      "based on comic",
+      "prequel",
+      "world domination",
+      "duringcreditsstinger",
+      "speculative",
+      "vexed",
+      "zealous",
+      "1910s",
+      "unassuming",
+      "sympathetic"
+    ]
+  },
+  {
+    "id": "kingsman secret service|2014",
+    "title": "Kingsman: The Secret Service",
+    "year": 2014,
+    "uri": "https://boxd.it/6dxe",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-03"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 207703,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/r6q9wZK5a2K51KFj4LWVID6Ja1r.jpg",
+    "runtime": 129,
+    "releaseDate": "2015-01-24",
+    "tmdbRating": 7.617,
+    "tmdbVotes": 18223,
+    "budget": 81000000,
+    "revenue": 414351546,
+    "genres": [
+      "Crime",
+      "Comedy",
+      "Action"
+    ],
+    "languages": [
+      "Arabic",
+      "English",
+      "Swedish"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United Kingdom",
+      "United States of America"
+    ],
+    "primaryCountry": "United Kingdom",
+    "studios": [
+      "20th Century Fox",
+      "Marv",
+      "Cloudy Productions",
+      "TSG Entertainment"
+    ],
+    "directors": [
+      "Matthew Vaughn"
+    ],
+    "writers": [
+      "Dave Gibbons",
+      "Mark Millar",
+      "Jane Goldman",
+      "Matthew Vaughn"
+    ],
+    "cast": [
+      "Taron Egerton",
+      "Colin Firth",
+      "Samuel L. Jackson",
+      "Mark Strong",
+      "Sophie Cookson",
+      "Sofia Boutella",
+      "Michael Caine",
+      "Edward Holcroft"
+    ],
+    "keywords": [
+      "great britain",
+      "spy",
+      "secret organization",
+      "microchip",
+      "secret agent",
+      "training",
+      "based on comic",
+      "implant",
+      "united kingdom",
+      "duringcreditsstinger",
+      "global threat",
+      "abusive stepfather"
+    ]
+  },
+  {
+    "id": "kingsman golden circle|2017",
+    "title": "Kingsman: The Golden Circle",
+    "year": 2017,
+    "uri": "https://boxd.it/buJm",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-03"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 343668,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/34xBL6BXNYFqtHO9zhcgoakS4aP.jpg",
+    "runtime": 141,
+    "releaseDate": "2017-09-20",
+    "tmdbRating": 6.941,
+    "tmdbVotes": 11415,
+    "budget": 104000000,
+    "revenue": 410902662,
+    "genres": [
+      "Crime",
+      "Comedy",
+      "Action"
+    ],
+    "languages": [
+      "Swedish",
+      "English",
+      "Italian"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United Kingdom",
+      "United States of America",
+      "Italy"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "20th Century Fox",
+      "Marv",
+      "Cloudy Productions",
+      "TSG Entertainment"
+    ],
+    "directors": [
+      "Matthew Vaughn"
+    ],
+    "writers": [
+      "Mark Millar",
+      "Dave Gibbons",
+      "Matthew Vaughn",
+      "Jane Goldman"
+    ],
+    "cast": [
+      "Taron Egerton",
+      "Colin Firth",
+      "Julianne Moore",
+      "Mark Strong",
+      "Hanna Alström",
+      "Halle Berry",
+      "Pedro Pascal",
+      "Channing Tatum"
+    ],
+    "keywords": [
+      "saving the world",
+      "spy",
+      "secret agent",
+      "europe",
+      "sequel",
+      "secret government organization",
+      "agent",
+      "statesman",
+      "joyous",
+      "amused"
+    ]
+  },
+  {
+    "id": "m|1931",
+    "title": "M",
+    "year": 1931,
+    "uri": "https://boxd.it/29vq",
+    "rating": 4.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-05"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 832,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/bTdZk3q2DWpBRnLiaaItKFWOVhI.jpg",
+    "runtime": 110,
+    "releaseDate": "1931-05-11",
+    "tmdbRating": 8.056,
+    "tmdbVotes": 2555,
+    "budget": null,
+    "revenue": 35274,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Crime"
+    ],
+    "languages": [
+      "German"
+    ],
+    "originalLanguage": "de",
+    "primaryLanguage": "German",
+    "countries": [
+      "Germany"
+    ],
+    "primaryCountry": "Germany",
+    "studios": [
+      "Nero-Film AG"
+    ],
+    "directors": [
+      "Fritz Lang"
+    ],
+    "writers": [
+      "Fritz Lang",
+      "Thea von Harbou"
+    ],
+    "cast": [
+      "Peter Lorre",
+      "Ellen Widmann",
+      "Inge Landgut",
+      "Otto Wernicke",
+      "Theodor Loos",
+      "Gustaf Gründgens",
+      "Friedrich Gnaß",
+      "Fritz Odemar"
+    ],
+    "keywords": [
+      "berlin, germany",
+      "germany",
+      "psychopath",
+      "detective inspector",
+      "child murder",
+      "investigation",
+      "film noir",
+      "organized crime",
+      "serial killer",
+      "black and white",
+      "criminal",
+      "pre-code",
+      "psycho",
+      "expressionism",
+      "german expressionism",
+      "crime"
+    ]
+  },
+  {
+    "id": "farewell my concubine|1993",
+    "title": "Farewell My Concubine",
+    "year": 1993,
+    "uri": "https://boxd.it/1UTM",
+    "rating": 3.0,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-05"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 10997,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/f54hNIiHNINw3JiUJB2XaQl5wCN.jpg",
+    "runtime": 171,
+    "releaseDate": "1993-01-01",
+    "tmdbRating": 7.9,
+    "tmdbVotes": 711,
+    "budget": 4000000,
+    "revenue": 6400000,
+    "genres": [
+      "Drama"
+    ],
+    "languages": [
+      "Mandarin"
+    ],
+    "originalLanguage": "zh",
+    "primaryLanguage": "Mandarin",
+    "countries": [
+      "China",
+      "Hong Kong"
+    ],
+    "primaryCountry": "China",
+    "studios": [
+      "Beijing Film Studio",
+      "China Film Co-Production",
+      "Tomson (Hong Kong) Films Co., Ltd."
+    ],
+    "directors": [
+      "Chen Kaige"
+    ],
+    "writers": [
+      "Lilian Lee Bik-Wah",
+      "Lilian Lee Bik-Wah",
+      "Lu Wei"
+    ],
+    "cast": [
+      "Leslie Cheung",
+      "Zhang Fengyi",
+      "Gong Li",
+      "Lü Qi",
+      "Ying Da",
+      "Ge You",
+      "Lei Han",
+      "Tong Di"
+    ],
+    "keywords": [
+      "china",
+      "society",
+      "transvestite",
+      "cultural revolution",
+      "woman between two men",
+      "best friend",
+      "beijing, china",
+      "lgbt",
+      "chinese opera",
+      "female impersonator",
+      "severed finger"
+    ]
+  },
+  {
+    "id": "chaser|2008",
+    "title": "The Chaser",
+    "year": 2008,
+    "uri": "https://boxd.it/1PgU",
+    "rating": 4.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-06"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 13855,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/hy49xJiKN1nakkN1ZmKuOf6vQYR.jpg",
+    "runtime": 125,
+    "releaseDate": "2008-02-14",
+    "tmdbRating": 7.785,
+    "tmdbVotes": 1647,
+    "budget": 2600000,
+    "revenue": 35800000,
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Action"
+    ],
+    "languages": [
+      "Korean"
+    ],
+    "originalLanguage": "ko",
+    "primaryLanguage": "Korean",
+    "countries": [
+      "South Korea"
+    ],
+    "primaryCountry": "South Korea",
+    "studios": [
+      "Bidangil Pictures"
+    ],
+    "directors": [
+      "Na Hong-jin"
+    ],
+    "writers": [
+      "Na Hong-jin",
+      "Lee Shin-ho",
+      "Hong Won-chan"
+    ],
+    "cast": [
+      "Kim Yoon-seok",
+      "Ha Jung-woo",
+      "Seo Young-hee",
+      "Kim You-jung",
+      "Jung In-gi",
+      "Choi Jung-woo",
+      "Min Kyung-jin",
+      "Park Hyo-ju"
+    ],
+    "keywords": [
+      "prostitute",
+      "kidnapping",
+      "psychopath",
+      "pimp",
+      "investigation",
+      "gore",
+      "rope",
+      "based on true story",
+      "flu",
+      "serial killer",
+      "psychological thriller",
+      "cell phone",
+      "dog",
+      "tied up",
+      "meat hook",
+      "chisel",
+      "seoul, south korea",
+      "tense",
+      "awestruck"
+    ]
+  },
+  {
+    "id": "pather panchali|1955",
+    "title": "Pather Panchali",
+    "year": 1955,
+    "uri": "https://boxd.it/22yC",
+    "rating": 2.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-06"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 5801,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/frZj5djlU9hFEjMcL21RJZVuG5O.jpg",
+    "runtime": 125,
+    "releaseDate": "1955-08-26",
+    "tmdbRating": 7.805,
+    "tmdbVotes": 513,
+    "budget": 31500,
+    "revenue": 536364,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "languages": [
+      "Bengali"
+    ],
+    "originalLanguage": "bn",
+    "primaryLanguage": "Bengali",
+    "countries": [
+      "India"
+    ],
+    "primaryCountry": "India",
+    "studios": [
+      "Government of West Bengal"
+    ],
+    "directors": [
+      "Satyajit Ray"
+    ],
+    "writers": [
+      "Satyajit Ray",
+      "Bibhutibhushan Bandyopadhyay"
+    ],
+    "cast": [
+      "Kanu Bannerjee",
+      "Karuna Banerjee",
+      "Subir Banerjee",
+      "Runki Banerjee",
+      "Uma Dasgupta",
+      "Chunibala Devi",
+      "Tulsi Chakraborty",
+      "Haren Banerjee"
+    ],
+    "keywords": [
+      "robbery",
+      "misery",
+      "difficult childhood",
+      "move",
+      "monsoon",
+      "teacher",
+      "priest",
+      "remembered death",
+      "black and white",
+      "writer",
+      "railroad",
+      "unemployment",
+      "calm",
+      "candid",
+      "admiring",
+      "adoring",
+      "cheerful"
+    ]
+  },
+  {
+    "id": "little odessa|1994",
+    "title": "Little Odessa",
+    "year": 1994,
+    "uri": "https://boxd.it/KyM",
+    "rating": 0.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-07"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 47504,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/80zDn3oanRMWDSDX1cPKZVIi8OO.jpg",
+    "runtime": 98,
+    "releaseDate": "1994-10-28",
+    "tmdbRating": 6.468,
+    "tmdbVotes": 253,
+    "budget": null,
+    "revenue": null,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "languages": [
+      "Russian",
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "Live Entertainment",
+      "Paul Webster Productions",
+      "Addis-Wechsler Productions"
+    ],
+    "directors": [
+      "James Gray"
+    ],
+    "writers": [
+      "James Gray"
+    ],
+    "cast": [
+      "Tim Roth",
+      "Edward Furlong",
+      "Moira Kelly",
+      "Vanessa Redgrave",
+      "Paul Guilfoyle",
+      "Natalya Andreychenko",
+      "Maximilian Schell",
+      "David Vadim"
+    ],
+    "keywords": [
+      "new york city",
+      "hitman",
+      "bratva (russian mafia)",
+      "brother",
+      "dysfunctional family",
+      "los angeles, california",
+      "brooklyn, new york city",
+      "ailing mother",
+      "father son relationship",
+      "mother son relationship",
+      "brother brother relationship",
+      "brighton beach"
+    ]
+  },
+  {
+    "id": "borgman|2013",
+    "title": "Borgman",
+    "year": 2013,
+    "uri": "https://boxd.it/5Fcm",
+    "rating": 2.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-07"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 186929,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/kasPhXDk4BI4FUS3ku5Y4GrgBJY.jpg",
+    "runtime": 113,
+    "releaseDate": "2013-08-29",
+    "tmdbRating": 6.504,
+    "tmdbVotes": 367,
+    "budget": null,
+    "revenue": null,
+    "genres": [
+      "Thriller",
+      "Drama"
+    ],
+    "languages": [
+      "English",
+      "Dutch"
+    ],
+    "originalLanguage": "nl",
+    "primaryLanguage": "Dutch",
+    "countries": [
+      "Netherlands",
+      "Denmark",
+      "Belgium"
+    ],
+    "primaryCountry": "Netherlands",
+    "studios": [
+      "Graniet Film",
+      "Epidemic",
+      "Angel Films"
+    ],
+    "directors": [
+      "Alex van Warmerdam"
+    ],
+    "writers": [
+      "Alex van Warmerdam"
+    ],
+    "cast": [
+      "Jan Bijvoet",
+      "Hadewych Minis",
+      "Jeroen Perceval",
+      "Alex van Warmerdam",
+      "Tom Dewispelaere",
+      "Sara Hjort Ditlevsen",
+      "Dirkje van der Pijl",
+      "Annet Malherbe"
+    ],
+    "keywords": [
+      "nightmare",
+      "dog",
+      "bedtime story",
+      "vagrant"
+    ]
+  },
+  {
+    "id": "rebels of neon god|1992",
+    "title": "Rebels of the Neon God",
+    "year": 1992,
+    "uri": "https://boxd.it/mp2",
+    "rating": 3.0,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-07"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 57564,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/eVNOoFSpRnaCNSJwerAD0KkeibD.jpg",
+    "runtime": 106,
+    "releaseDate": "1994-08-04",
+    "tmdbRating": 7.3,
+    "tmdbVotes": 161,
+    "budget": null,
+    "revenue": 28791,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "languages": [
+      "Mandarin"
+    ],
+    "originalLanguage": "zh",
+    "primaryLanguage": "Mandarin",
+    "countries": [
+      "Taiwan"
+    ],
+    "primaryCountry": "Taiwan",
+    "studios": [
+      "Central Motion Picture Corporation"
+    ],
+    "directors": [
+      "Tsai Ming-liang"
+    ],
+    "writers": [
+      "Tsai Ming-liang"
+    ],
+    "cast": [
+      "Lee Kang-sheng",
+      "Chen Chao-jung",
+      "Wang Yu-wen",
+      "Jen Chang-bin",
+      "Miao Tian",
+      "Lu Yi-ching"
+    ],
+    "keywords": [
+      "nihilism",
+      "megacity",
+      "identity",
+      "obsession",
+      "flooding",
+      "vandalism",
+      "urban life",
+      "dysfunctional family",
+      "revenge",
+      "arcade",
+      "juvenile delinquent",
+      "street life",
+      "taipei",
+      "petty crimes",
+      "video arcade",
+      "gay interest"
+    ]
+  },
+  {
+    "id": "sallie gardner at gallop|1878",
+    "title": "Sallie Gardner at a Gallop",
+    "year": 1878,
+    "uri": "https://boxd.it/5QQi",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-08"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0
+  },
+  {
+    "id": "red desert|1964",
+    "title": "Red Desert",
+    "year": 1964,
+    "uri": "https://boxd.it/1ttW",
+    "rating": 3.0,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-08"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 26638,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/rGcTVdyhaGzMxPPRVApXre6F7SD.jpg",
+    "runtime": 117,
+    "releaseDate": "1964-09-04",
+    "tmdbRating": 7.319,
+    "tmdbVotes": 518,
+    "budget": null,
+    "revenue": null,
+    "genres": [
+      "Drama"
+    ],
+    "languages": [
+      "Italian",
+      "Turkish"
+    ],
+    "originalLanguage": "it",
+    "primaryLanguage": "Italian",
+    "countries": [
+      "France",
+      "Italy"
+    ],
+    "primaryCountry": "Italy",
+    "studios": [
+      "Federiz",
+      "Francoriz Production",
+      "Film Duemila"
+    ],
+    "directors": [
+      "Michelangelo Antonioni"
+    ],
+    "writers": [
+      "Michelangelo Antonioni",
+      "Michelangelo Antonioni",
+      "Tonino Guerra",
+      "Tonino Guerra"
+    ],
+    "cast": [
+      "Monica Vitti",
+      "Richard Harris",
+      "Carlo Chionetti",
+      "Xenia Valderi",
+      "Rita Renoir",
+      "Lili Rheims",
+      "Aldo Grotti",
+      "Valerio Bartoleschi"
+    ],
+    "keywords": [
+      "adultery",
+      "depression",
+      "factory",
+      "husband wife relationship",
+      "italy",
+      "fog",
+      "loneliness",
+      "mother son relationship"
+    ]
+  },
+  {
+    "id": "american animals|2018",
+    "title": "American Animals",
+    "year": 2018,
+    "uri": "https://boxd.it/hE4K",
+    "rating": 1.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-17"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 1,
+    "tmdbId": 489931,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/aLbdKxgxuOPvs6CTlmzoOQ4Yg3j.jpg",
+    "runtime": 117,
+    "releaseDate": "2018-06-01",
+    "tmdbRating": 6.739,
+    "tmdbVotes": 1251,
+    "budget": 3000000,
+    "revenue": 2847319,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Documentary"
+    ],
+    "languages": [
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United Kingdom",
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "Film4 Productions",
+      "RAW",
+      "Lava Bear Films",
+      "AI Film"
+    ],
+    "directors": [
+      "Bart Layton"
+    ],
+    "writers": [
+      "Bart Layton",
+      "Claudia Zie",
+      "Ian Sellar",
+      "Jacob Secher Schulsinger"
+    ],
+    "cast": [
+      "Evan Peters",
+      "Barry Keoghan",
+      "Blake Jenner",
+      "Jared Abrahamson",
+      "Ann Dowd",
+      "Gary Basaraba",
+      "Udo Kier",
+      "Wayne Duvall"
+    ],
+    "keywords": [
+      "new york city",
+      "art collector",
+      "library",
+      "pennsylvania, usa",
+      "artist",
+      "kentucky",
+      "final exam",
+      "arrest",
+      "based on true story",
+      "heist",
+      "travel",
+      "university",
+      "theft",
+      "disguise",
+      "unreliable narrator"
+    ]
+  },
+  {
+    "id": "hotel transylvania|2012",
+    "title": "Hotel Transylvania",
+    "year": 2012,
+    "uri": "https://boxd.it/2DF6",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-17"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 76492,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
+    "runtime": 91,
+    "releaseDate": "2012-09-20",
+    "tmdbRating": 7.0,
+    "tmdbVotes": 9393,
+    "budget": 85000000,
+    "revenue": 358375603,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "languages": [
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "Columbia Pictures",
+      "Sony Pictures Animation"
+    ],
+    "directors": [
+      "Genndy Tartakovsky"
+    ],
+    "writers": [
+      "Dan Hageman",
+      "Kevin Hageman",
+      "Todd Durham",
+      "Peter Baynham",
+      "Robert Smigel"
+    ],
+    "cast": [
+      "Selena Gomez",
+      "Adam Sandler",
+      "Andy Samberg",
+      "Kevin James",
+      "Fran Drescher",
+      "Steve Buscemi",
+      "Molly Shannon",
+      "David Spade"
+    ],
+    "keywords": [
+      "hotel",
+      "witch",
+      "vampire",
+      "halloween",
+      "romance",
+      "love",
+      "zombie",
+      "invisible person",
+      "duringcreditsstinger",
+      "nosferatu",
+      "protective father",
+      "magical creature",
+      "philosophical",
+      "father daughter relationship",
+      "3d animation"
+    ]
+  },
+  {
+    "id": "fallen leaves|2023",
+    "title": "Fallen Leaves",
+    "year": 2023,
+    "uri": "https://boxd.it/Bgew",
+    "rating": 1.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-19"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 986280,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/9ayYOpeqHhxfHHUoyt3kXzznECO.jpg",
+    "runtime": 81,
+    "releaseDate": "2023-09-14",
+    "tmdbRating": 7.1,
+    "tmdbVotes": 775,
+    "budget": 1480000,
+    "revenue": 12400000,
+    "genres": [
+      "Romance",
+      "Drama",
+      "Comedy"
+    ],
+    "languages": [
+      "Finnish",
+      "Arabic"
+    ],
+    "originalLanguage": "fi",
+    "primaryLanguage": "Finnish",
+    "countries": [
+      "Finland",
+      "Germany"
+    ],
+    "primaryCountry": "Finland",
+    "studios": [
+      "Sputnik",
+      "Bufo",
+      "Pandora Film"
+    ],
+    "directors": [
+      "Aki Kaurismäki"
+    ],
+    "writers": [
+      "Aki Kaurismäki"
+    ],
+    "cast": [
+      "Alma Pöysti",
+      "Jussi Vatanen",
+      "Janne Hyytiäinen",
+      "Nuppu Koivu",
+      "Mia Snellman",
+      "Mikko Mykkänen",
+      "Sherwan Haji",
+      "Karar Al-Bazoon"
+    ],
+    "keywords": [
+      "helsinki, finland",
+      "coma",
+      "karaoke",
+      "alcoholism",
+      "romance",
+      "loneliness",
+      "stray dog",
+      "deadpan comedy",
+      "russian invasion of ukraine (2022)",
+      "movie theater",
+      "independent film",
+      "working class people",
+      "romantic dramedy",
+      "dry humor"
+    ]
+  },
+  {
+    "id": "dogville|2003",
+    "title": "Dogville",
+    "year": 2003,
+    "uri": "https://boxd.it/2a8W",
+    "rating": 0.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-20"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 553,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/lraVawavIXh5geMlVjpzCw9TGwR.jpg",
+    "runtime": 178,
+    "releaseDate": "2003-05-21",
+    "tmdbRating": 7.743,
+    "tmdbVotes": 2791,
+    "budget": 10000000,
+    "revenue": 16690617,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "languages": [
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "Denmark",
+      "Finland",
+      "France",
+      "Germany",
+      "Netherlands",
+      "Sweden",
+      "United Kingdom",
+      "Norway",
+      "Italy"
+    ],
+    "primaryCountry": "Denmark",
+    "studios": [
+      "Zentropa Entertainments",
+      "Isabella Films B.V.",
+      "Something Else B.V.",
+      "Memfis Film",
+      "Trollhättan Film",
+      "Pain Unlimited Filmproduktion"
+    ],
+    "directors": [
+      "Lars von Trier"
+    ],
+    "writers": [
+      "Lars von Trier",
+      "Clare Saxby",
+      "E. Max Frye"
+    ],
+    "cast": [
+      "Nicole Kidman",
+      "Paul Bettany",
+      "John Hurt",
+      "Stellan Skarsgård",
+      "Philip Baker Hall",
+      "Patricia Clarkson",
+      "Ben Gazzara",
+      "Chloë Sevigny"
+    ],
+    "keywords": [
+      "friendship",
+      "bondage",
+      "rape",
+      "police",
+      "gangster",
+      "village life",
+      "refugee",
+      "blackmail",
+      "mountain",
+      "american dream",
+      "bank robber",
+      "last judgment",
+      "mountain village",
+      "exploitation",
+      "rocky mountains",
+      "woman martyr",
+      "physical work",
+      "wanted poster",
+      "forced labour",
+      "slavery",
+      "recession",
+      "art house",
+      "hoodlum",
+      "experimental film",
+      "avant garde",
+      "avant garde film",
+      "art house film"
+    ]
+  },
+  {
+    "id": "dark waters|2019",
+    "title": "Dark Waters",
+    "year": 2019,
+    "uri": "https://boxd.it/kaYu",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-21"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 552178,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/bzvzaHqKBSuGIIWhinTQPHvT0zf.jpg",
+    "runtime": 127,
+    "releaseDate": "2019-11-22",
+    "tmdbRating": 7.529,
+    "tmdbVotes": 2627,
+    "budget": 20000000,
+    "revenue": 13601384,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "languages": [
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "Participant",
+      "Willi Hill",
+      "Killer Films"
+    ],
+    "directors": [
+      "Todd Haynes"
+    ],
+    "writers": [
+      "Mario Correa",
+      "Matthew Michael Carnahan",
+      "Nathaniel Rich"
+    ],
+    "cast": [
+      "Mark Ruffalo",
+      "Anne Hathaway",
+      "Tim Robbins",
+      "Bill Pullman",
+      "Bill Camp",
+      "Victor Garber",
+      "Mare Winningham",
+      "William Jackson Harper"
+    ],
+    "keywords": [
+      "pollution",
+      "grave",
+      "biography",
+      "based on true story",
+      "lawsuit",
+      "west virginia",
+      "cancer",
+      "lawyer",
+      "biting",
+      "farmer",
+      "water pollution",
+      "government corruption",
+      "mysterious",
+      "paranoid",
+      "grim",
+      "1990s",
+      "somber",
+      "based on magazine, newspaper or article",
+      "anxious",
+      "legal thriller",
+      "chemical contamination",
+      "blood test",
+      "clinical",
+      "suspenseful",
+      "critical",
+      "foreboding",
+      "ominous"
+    ]
+  },
+  {
+    "id": "my left foot story of christy brown|1989",
+    "title": "My Left Foot: The Story of Christy Brown",
+    "year": 1989,
+    "uri": "https://boxd.it/1WW4",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-21"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 10161,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/GRAAl0bMQFoFIjV3aunc5jsM5u.jpg",
+    "runtime": 103,
+    "releaseDate": "1989-04-07",
+    "tmdbRating": 7.539,
+    "tmdbVotes": 1066,
+    "budget": 645180,
+    "revenue": 14743391,
+    "genres": [
+      "Drama"
+    ],
+    "languages": [
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "Ireland",
+      "United Kingdom"
+    ],
+    "primaryCountry": "Ireland",
+    "studios": [
+      "Ferndale Films",
+      "Granada Television",
+      "RTÉ"
+    ],
+    "directors": [
+      "Jim Sheridan"
+    ],
+    "writers": [
+      "Shane Connaughton",
+      "Jim Sheridan",
+      "Christy Brown"
+    ],
+    "cast": [
+      "Daniel Day-Lewis",
+      "Brenda Fricker",
+      "Alison Whelan",
+      "Kirsten Sheridan",
+      "Declan Croghan",
+      "Eanna MacLiam",
+      "Marie Conmee",
+      "Cyril Cusack"
+    ],
+    "keywords": [
+      "bodily disabled person",
+      "poet",
+      "biography",
+      "based on true story",
+      "foot",
+      "flashback",
+      "author",
+      "working class",
+      "ireland",
+      "disabled",
+      "cerebral palsy",
+      "irish film"
+    ]
+  },
+  {
+    "id": "black panther|2018",
+    "title": "Black Panther",
+    "year": 2018,
+    "uri": "https://boxd.it/8MHs",
+    "rating": 2.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-26"
+    ],
+    "watchCount": 1,
+    "rewatched": true,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 284054,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
+    "runtime": 135,
+    "releaseDate": "2018-02-13",
+    "tmdbRating": 7.361,
+    "tmdbVotes": 24038,
+    "budget": 200000000,
+    "revenue": 1349926083,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "languages": [
+      "English",
+      "Korean",
+      "Swahili",
+      "Xhosa"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "Marvel Studios"
+    ],
+    "directors": [
+      "Ryan Coogler"
+    ],
+    "writers": [
+      "Ryan Coogler",
+      "Joe Robert Cole",
+      "Jack Kirby",
+      "Simeon Wilkins",
+      "Stan Lee"
+    ],
+    "cast": [
+      "Chadwick Boseman",
+      "Michael B. Jordan",
+      "Lupita Nyong'o",
+      "Danai Gurira",
+      "Martin Freeman",
+      "Daniel Kaluuya",
+      "Letitia Wright",
+      "Winston Duke"
+    ],
+    "keywords": [
+      "africa",
+      "superhero",
+      "based on comic",
+      "aftercreditsstinger",
+      "duringcreditsstinger",
+      "marvel cinematic universe (mcu)"
+    ]
+  },
+  {
+    "id": "right now wrong then|2015",
+    "title": "Right Now, Wrong Then",
+    "year": 2015,
+    "uri": "https://boxd.it/bWs4",
+    "rating": 3.0,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-26"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 354275,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/hATTFb4eTiEWfKK6e1mX0zcfSLb.jpg",
+    "runtime": 121,
+    "releaseDate": "2015-09-24",
+    "tmdbRating": 7.015,
+    "tmdbVotes": 171,
+    "budget": null,
+    "revenue": 680728,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "languages": [
+      "Korean"
+    ],
+    "originalLanguage": "ko",
+    "primaryLanguage": "Korean",
+    "countries": [
+      "South Korea"
+    ],
+    "primaryCountry": "South Korea",
+    "studios": [
+      "Jeonwonsa Film"
+    ],
+    "directors": [
+      "Hong Sang-soo"
+    ],
+    "writers": [
+      "Hong Sang-soo"
+    ],
+    "cast": [
+      "Jung Jae-young",
+      "Kim Min-hee",
+      "Youn Yuh-jung",
+      "Ki Joo-bong",
+      "Choi Hwa-jeong",
+      "Yu Jun-sang",
+      "Seo Young-hwa",
+      "Ko Asung"
+    ],
+    "keywords": [
+      "movie business",
+      "alcoholic drink"
+    ]
+  },
+  {
+    "id": "together|2000",
+    "title": "Together",
+    "year": 2000,
+    "uri": "https://boxd.it/29JW",
+    "rating": 1.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-26"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 742,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/fIY5xko6dJOcn0hckudIhPXobve.jpg",
+    "runtime": 106,
+    "releaseDate": "2000-08-25",
+    "tmdbRating": 7.032,
+    "tmdbVotes": 279,
+    "budget": null,
+    "revenue": null,
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "languages": [
+      "Swedish"
+    ],
+    "originalLanguage": "sv",
+    "primaryLanguage": "Swedish",
+    "countries": [
+      "Denmark",
+      "Italy",
+      "Norway",
+      "Sweden"
+    ],
+    "primaryCountry": "Sweden",
+    "studios": [
+      "Memfis Film",
+      "Zentropa Entertainments",
+      "Film i Väst",
+      "SVT",
+      "Keyfilms Roma",
+      "Nordisk Film & TV Fond"
+    ],
+    "directors": [
+      "Lukas Moodysson"
+    ],
+    "writers": [
+      "Lukas Moodysson",
+      "Lukas Moodysson",
+      "Lukas Moodysson",
+      "Lukas Moodysson"
+    ],
+    "cast": [
+      "Lisa Lindgren",
+      "Michael Nyqvist",
+      "Emma Samuelsson",
+      "Sam Kessel",
+      "Gustaf Hammarsten",
+      "Anja Lundqvist",
+      "Jessica Liedberg",
+      "Ola Rapace"
+    ],
+    "keywords": [
+      "hippie",
+      "1970s",
+      "roommates",
+      "socialism",
+      "sweden",
+      "commune",
+      "feminism",
+      "pacifism",
+      "ideology",
+      "utopia",
+      "single",
+      "loneliness",
+      "alcoholic",
+      "alcoholic father",
+      "young love",
+      "lesbian"
+    ]
+  },
+  {
+    "id": "prey|2022",
+    "title": "Prey",
+    "year": 2022,
+    "uri": "https://boxd.it/sNBU",
+    "rating": 0.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-27"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 766507,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/2FKjLRt7oK1bRRIrxgWmthbBdFh.jpg",
+    "runtime": 100,
+    "releaseDate": "2022-08-05",
+    "tmdbRating": 7.6,
+    "tmdbVotes": 8028,
+    "budget": 65000000,
+    "revenue": null,
+    "genres": [
+      "Thriller",
+      "Action",
+      "Science Fiction"
+    ],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "20th Century Studios",
+      "Davis Entertainment",
+      "Lawrence Gordon Productions"
+    ],
+    "directors": [
+      "Dan Trachtenberg"
+    ],
+    "writers": [
+      "John Thomas",
+      "Jim Thomas",
+      "Patrick Aison",
+      "Dan Trachtenberg",
+      "Patrick Aison"
+    ],
+    "cast": [
+      "Amber Midthunder",
+      "Dakota Beavers",
+      "Michelle Thrush",
+      "Stormee Kipp",
+      "Julian Black Antelope",
+      "Dane DiLiegro",
+      "Stefany Mathias",
+      "Bennett Taylor"
+    ],
+    "keywords": [
+      "hunter",
+      "native american",
+      "alien life-form",
+      "alien",
+      "prequel",
+      "decapitation",
+      "bear",
+      "dog",
+      "severed foot",
+      "bear attack",
+      "comanche",
+      "human vs alien",
+      "indigenous peoples",
+      "severed arm",
+      "dog hero",
+      "grand",
+      "great plains"
+    ]
+  },
+  {
+    "id": "boyz n hood|1991",
+    "title": "Boyz n the Hood",
+    "year": 1991,
+    "uri": "https://boxd.it/29Ug",
+    "rating": 3.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-26"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 650,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/kaS8BkTZESnkoB5i1zRQ02FIRGk.jpg",
+    "runtime": 112,
+    "releaseDate": "1991-07-12",
+    "tmdbRating": 7.638,
+    "tmdbVotes": 2361,
+    "budget": 6500000,
+    "revenue": 57504069,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "languages": [
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "Columbia Pictures"
+    ],
+    "directors": [
+      "John Singleton"
+    ],
+    "writers": [
+      "John Singleton"
+    ],
+    "cast": [
+      "Cuba Gooding Jr.",
+      "Laurence Fishburne",
+      "Ice Cube",
+      "Morris Chestnut",
+      "Angela Bassett",
+      "Nia Long",
+      "Tyra Ferrell",
+      "Regina King"
+    ],
+    "keywords": [
+      "street gang",
+      "gangster",
+      "rapper",
+      "ghetto",
+      "street war",
+      "coming of age",
+      "tragedy",
+      "social commentary",
+      "los angeles, california",
+      "gang violence",
+      "social awareness",
+      "black american",
+      "intense",
+      "antagonistic",
+      "racial inequality"
+    ]
+  },
+  {
+    "id": "citizenfour|2014",
+    "title": "Citizenfour",
+    "year": 2014,
+    "uri": "https://boxd.it/9eSe",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-09-27"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 293310,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/nOVhX69EAxtSKEEnr5UcSd5UVci.jpg",
+    "runtime": 113,
+    "releaseDate": "2014-10-10",
+    "tmdbRating": 7.735,
+    "tmdbVotes": 1450,
+    "budget": null,
+    "revenue": 3003169,
+    "genres": [
+      "Documentary"
+    ],
+    "languages": [
+      "English",
+      "German",
+      "Portuguese"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "Germany",
+      "United Kingdom",
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "Participant",
+      "HBO Documentary Films",
+      "The Bertha Foundation",
+      "BR",
+      "NDR",
+      "Praxis Films Berlin"
+    ],
+    "directors": [
+      "Laura Poitras"
+    ],
+    "writers": [
+      "Laura Poitras"
+    ],
+    "cast": [
+      "Edward Snowden",
+      "Glenn Greenwald",
+      "Laura Poitras",
+      "William Binney",
+      "Barack Obama",
+      "Jacob Appelbaum",
+      "Julian Assange",
+      "Jeremy Scahill"
+    ],
+    "keywords": [
+      "biography",
+      "national security agency (nsa)",
+      "woman director",
+      "investigative journalism",
+      "whistleblower",
+      "surveillance state",
+      "observational documentary",
+      "mass surveillance",
+      "fbi surveillance"
+    ]
+  },
+  {
+    "id": "doors|1991",
+    "title": "The Doors",
+    "year": 1991,
+    "uri": "https://boxd.it/1W18",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-10-02"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 10537,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/x1LM3dzGuG6xOz0aT2e71o11vhu.jpg",
+    "runtime": 140,
+    "releaseDate": "1991-03-01",
+    "tmdbRating": 7.111,
+    "tmdbVotes": 1660,
+    "budget": 38000000,
+    "revenue": 34416893,
+    "genres": [
+      "Music",
+      "Drama"
+    ],
+    "languages": [
+      "English"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "Carolco Pictures",
+      "Bill Graham Films",
+      "Imagine Entertainment",
+      "Ixtlan Productions"
+    ],
+    "directors": [
+      "Oliver Stone"
+    ],
+    "writers": [
+      "Oliver Stone",
+      "Randall Jahnson",
+      "John Densmore"
+    ],
+    "cast": [
+      "Val Kilmer",
+      "Meg Ryan",
+      "Kyle MacLachlan",
+      "Frank Whaley",
+      "Kevin Dillon",
+      "Michael Wincott",
+      "Michael Madsen",
+      "Josh Evans"
+    ],
+    "keywords": [
+      "rock 'n' roll",
+      "airplane",
+      "hippie",
+      "joint",
+      "poetry",
+      "lsd",
+      "hallucination",
+      "wilderness",
+      "addicted",
+      "organ",
+      "biography",
+      "alcoholism",
+      "singer",
+      "drugs",
+      "period drama"
+    ]
+  },
+  {
+    "id": "take out|2004",
+    "title": "Take Out",
+    "year": 2004,
+    "uri": "https://boxd.it/17DA",
+    "rating": 3.5,
+    "liked": false,
+    "watchedDates": [
+      "2026-10-02"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 37736,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/hBpAozLANehQQnvTPcCHcKQt2vP.jpg",
+    "runtime": 88,
+    "releaseDate": "2008-06-06",
+    "tmdbRating": 7.0,
+    "tmdbVotes": 50,
+    "budget": 3000,
+    "revenue": null,
+    "genres": [
+      "Drama"
+    ],
+    "languages": [
+      "Spanish",
+      "English",
+      "Mandarin"
+    ],
+    "originalLanguage": "zh",
+    "primaryLanguage": "Mandarin",
+    "countries": [
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "Cre Film"
+    ],
+    "directors": [
+      "Tsou Shih-ching",
+      "Sean Baker"
+    ],
+    "writers": [
+      "Tsou Shih-ching",
+      "Sean Baker"
+    ],
+    "cast": [
+      "Charles Jang",
+      "Jeng-Hua Yu",
+      "Wang-Thye Lee",
+      "Justin Wan",
+      "Jeff Huang",
+      "Shih-Yun Tsou",
+      "Joe Chien",
+      "Waley Liu"
+    ],
+    "keywords": [
+      "migrant worker",
+      "woman director",
+      "food delivery"
+    ]
+  },
+  {
+    "id": "le samourai|1967",
+    "title": "Le Samouraï",
+    "year": 1967,
+    "uri": "https://boxd.it/22ZI",
+    "rating": 3.0,
+    "liked": false,
+    "watchedDates": [
+      "2026-10-03"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": true,
+    "reviewCount": 0,
+    "tmdbId": 5511,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/5Fa6o5nfUPEatQ9b3OwEvdEdR7T.jpg",
+    "runtime": 105,
+    "releaseDate": "1967-10-25",
+    "tmdbRating": 7.776,
+    "tmdbVotes": 1315,
+    "budget": null,
+    "revenue": 215245,
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "languages": [
+      "French"
+    ],
+    "originalLanguage": "fr",
+    "primaryLanguage": "French",
+    "countries": [
+      "France",
+      "Italy"
+    ],
+    "primaryCountry": "France",
+    "studios": [
+      "Compagnie Industrielle et Commerciale Cinématographique",
+      "Fida Cinematografica",
+      "Filmel",
+      "TC Productions"
+    ],
+    "directors": [
+      "Jean-Pierre Melville"
+    ],
+    "writers": [
+      "Jean-Pierre Melville",
+      "Georges Pellegrin"
+    ],
+    "cast": [
+      "Alain Delon",
+      "François Périer",
+      "Nathalie Delon",
+      "Cathy Rosier",
+      "Michel Boisrond",
+      "Catherine Jourdan",
+      "Jean-Pierre Posier",
+      "Robert Favart"
+    ],
+    "keywords": [
+      "paris, france",
+      "police",
+      "hitman",
+      "jazz club",
+      "treason",
+      "stakeout",
+      "french noir",
+      "contract killer",
+      "mysterious",
+      "professional assassin",
+      "neo-noir",
+      "complex relationship",
+      "bitter",
+      "ominous"
+    ]
+  },
+  {
+    "id": "from dusk till dawn|1996",
+    "title": "From Dusk Till Dawn",
+    "year": 1996,
+    "uri": "https://boxd.it/29HQ",
+    "rating": null,
+    "liked": false,
+    "watchedDates": [
+      "2026-10-04"
+    ],
+    "watchCount": 1,
+    "rewatched": false,
+    "logged": false,
+    "reviewCount": 0,
+    "tmdbId": 755,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/sV3kIAmvJ9tPz4Lq5fuf9LLMxte.jpg",
+    "runtime": 108,
+    "releaseDate": "1996-01-19",
+    "tmdbRating": 7.052,
+    "tmdbVotes": 6737,
+    "budget": 19000000,
+    "revenue": 25800000,
+    "genres": [
+      "Horror",
+      "Action",
+      "Crime"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "originalLanguage": "en",
+    "primaryLanguage": "English",
+    "countries": [
+      "United States of America"
+    ],
+    "primaryCountry": "United States of America",
+    "studios": [
+      "Los Hooligans Productions",
+      "A Band Apart",
+      "Dimension Films",
+      "Miramax"
+    ],
+    "directors": [
+      "Robert Rodriguez"
+    ],
+    "writers": [
+      "Quentin Tarantino",
+      "Robert Kurtzman"
+    ],
+    "cast": [
+      "George Clooney",
+      "Quentin Tarantino",
+      "Harvey Keitel",
+      "Juliette Lewis",
+      "Ernest Liu",
+      "Salma Hayek Pinault",
+      "Cheech Marin",
+      "Danny Trejo"
+    ],
+    "keywords": [
+      "dancing",
+      "showdown",
+      "sheriff",
+      "sibling relationship",
+      "vampire",
+      "bank robber",
+      "holy water",
+      "siege",
+      "stripper",
+      "priest",
+      "bank robbery",
+      "preacher",
+      "hostage situation",
+      "crucifix",
+      "recreational vehicle",
+      "mexican american border",
+      "female stripping",
+      "boa constrictor",
+      "loss of faith",
+      "foot fetish",
+      "killer on the run",
+      "brothers",
+      "barefoot"
     ]
   }
 ]

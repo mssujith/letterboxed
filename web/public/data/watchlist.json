@@ -56,14 +56,6 @@
     "releaseDate": "1999-09-12"
   },
   {
-    "tmdbId": 26638,
-    "title": "Red Desert",
-    "year": 1964,
-    "posterUrl": "https://image.tmdb.org/t/p/w342/rGcTVdyhaGzMxPPRVApXre6F7SD.jpg",
-    "tmdbRating": 7.3,
-    "releaseDate": "1964-09-04"
-  },
-  {
     "tmdbId": 1050035,
     "title": "Monster",
     "year": 2023,
@@ -126,14 +118,6 @@
     "posterUrl": "https://image.tmdb.org/t/p/w342/jE8ygUYBUGyUcM4sR6iinPqYeDK.jpg",
     "tmdbRating": 7.888,
     "releaseDate": "1955-01-29"
-  },
-  {
-    "tmdbId": 553,
-    "title": "Dogville",
-    "year": 2003,
-    "posterUrl": "https://image.tmdb.org/t/p/w342/lraVawavIXh5geMlVjpzCw9TGwR.jpg",
-    "tmdbRating": 7.752,
-    "releaseDate": "2003-05-21"
   },
   {
     "tmdbId": 22527,
@@ -208,14 +192,6 @@
     "releaseDate": "1988-03-11"
   },
   {
-    "tmdbId": 57564,
-    "title": "Rebels of the Neon God",
-    "year": 1992,
-    "posterUrl": "https://image.tmdb.org/t/p/w342/tAFxJOaf2p7hZQhNfBo7NoaDiZN.jpg",
-    "tmdbRating": 7.313,
-    "releaseDate": "1994-08-04"
-  },
-  {
     "tmdbId": 56616,
     "title": "Goodbye, Dragon Inn",
     "year": 2003,
@@ -272,14 +248,6 @@
     "releaseDate": "2001-08-29"
   },
   {
-    "tmdbId": 10997,
-    "title": "Farewell My Concubine",
-    "year": 1993,
-    "posterUrl": "https://image.tmdb.org/t/p/w342/f54hNIiHNINw3JiUJB2XaQl5wCN.jpg",
-    "tmdbRating": 7.9,
-    "releaseDate": "1993-01-01"
-  },
-  {
     "tmdbId": 55,
     "title": "Amores Perros",
     "year": 2000,
@@ -328,14 +296,6 @@
     "releaseDate": "1959-12-16"
   },
   {
-    "tmdbId": 30959,
-    "title": "Kwaidan",
-    "year": 1964,
-    "posterUrl": "https://image.tmdb.org/t/p/w342/t9UMfViYl47SdZZatKQ1JKjjCgs.jpg",
-    "tmdbRating": 7.705,
-    "releaseDate": "1965-01-06"
-  },
-  {
     "tmdbId": 547404,
     "title": "House of Hummingbird",
     "year": 2018,
@@ -376,14 +336,6 @@
     "releaseDate": "2002-08-09"
   },
   {
-    "tmdbId": 31414,
-    "title": "Satantango",
-    "year": 1994,
-    "posterUrl": "https://image.tmdb.org/t/p/w342/y38z0v4HJ12MHiKddLEoFlvPiBt.jpg",
-    "tmdbRating": 8.034,
-    "releaseDate": "1994-02-08"
-  },
-  {
     "tmdbId": 31542,
     "title": "The Tree of Wooden Clogs",
     "year": 1978,
@@ -398,5 +350,173 @@
     "posterUrl": "https://image.tmdb.org/t/p/w342/yylEjPttmTDar0o92StlrO5ghmw.jpg",
     "tmdbRating": 7.077,
     "releaseDate": "1967-12-15"
+  },
+  {
+    "tmdbId": 30018,
+    "title": "Mother",
+    "year": 2009,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/8oBnSkZE6GDVugAbLPO6uJd4GcS.jpg",
+    "tmdbRating": 7.708,
+    "releaseDate": "2009-05-28"
+  },
+  {
+    "tmdbId": 3112,
+    "title": "The Night of the Hunter",
+    "year": 1955,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/rBka0nFWiHxabHRLr0KfIA8Yiaq.jpg",
+    "tmdbRating": 7.9,
+    "releaseDate": "1955-07-26"
+  },
+  {
+    "tmdbId": 891,
+    "title": "All the President's Men",
+    "year": 1976,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/pCe6lfLxt1B58zPD4lgQrlnDS2j.jpg",
+    "tmdbRating": 7.655,
+    "releaseDate": "1976-04-09"
+  },
+  {
+    "tmdbId": 922,
+    "title": "Dead Man",
+    "year": 1995,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/jX3wGBVoYoAY3IixBpwYk1fjT4z.jpg",
+    "tmdbRating": 7.302,
+    "releaseDate": "1995-12-23"
+  },
+  {
+    "tmdbId": 387,
+    "title": "Das Boot",
+    "year": 1981,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/u8FhQPncOAkwcei2OI9orPWhV6K.jpg",
+    "tmdbRating": 8.083,
+    "releaseDate": "1981-09-17"
+  },
+  {
+    "tmdbId": 144,
+    "title": "Wings of Desire",
+    "year": 1987,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/iZQs2vUeCzvS1KfZJ6uYNCGJBBV.jpg",
+    "tmdbRating": 7.758,
+    "releaseDate": "1987-09-23"
+  },
+  {
+    "tmdbId": 18079,
+    "title": "Nine Queens",
+    "year": 2000,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/u2L4Foderu7SCPci5c3jsUfEJPP.jpg",
+    "tmdbRating": 7.8,
+    "releaseDate": "2000-08-31"
+  },
+  {
+    "tmdbId": 18912,
+    "title": "Angst",
+    "year": 1983,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/nSYdWrPPwvcs5t5hG67XqDbwncG.jpg",
+    "tmdbRating": 7.064,
+    "releaseDate": "1983-01-01"
+  },
+  {
+    "tmdbId": 27324,
+    "title": "Pulse",
+    "year": 2001,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/c3zEimDraIyMSasPMGDaNOrhnzn.jpg",
+    "tmdbRating": 6.701,
+    "releaseDate": "2001-02-03"
+  },
+  {
+    "tmdbId": 108,
+    "title": "Three Colours: Blue",
+    "year": 1993,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/33wsWxzsNstI8N7dvuwzFmj1qBd.jpg",
+    "tmdbRating": 7.614,
+    "releaseDate": "1993-09-08"
+  },
+  {
+    "tmdbId": 1600,
+    "title": "The Double Life of Véronique",
+    "year": 1991,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/oqRyO9xrNBRaxqF9pCHHgLuaATx.jpg",
+    "tmdbRating": 7.5,
+    "releaseDate": "1991-05-15"
+  },
+  {
+    "tmdbId": 13580,
+    "title": "The Spy Who Came In from the Cold",
+    "year": 1965,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/lN3PWv6cW22mqXDcgGZgK1Aa2gh.jpg",
+    "tmdbRating": 7.1,
+    "releaseDate": "1965-12-16"
+  },
+  {
+    "tmdbId": 5955,
+    "title": "The Pledge",
+    "year": 2001,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/9QOzFL3FPMAUNNPrNiKC3mEDxco.jpg",
+    "tmdbRating": 6.6,
+    "releaseDate": "2001-01-19"
+  },
+  {
+    "tmdbId": 9652,
+    "title": "The Passenger",
+    "year": 1975,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/A8jYH43plz70dNmHy82zAHGTqxN.jpg",
+    "tmdbRating": 7.2,
+    "releaseDate": "1975-02-28"
+  },
+  {
+    "tmdbId": 54254,
+    "title": "The Song of Sparrows",
+    "year": 2008,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/hPevXwgadyU6ce5F4CZY1XRfq3I.jpg",
+    "tmdbRating": 7.429,
+    "releaseDate": "2008-10-01"
+  },
+  {
+    "tmdbId": 110390,
+    "title": "A Pigeon Sat on a Branch Reflecting on Existence",
+    "year": 2014,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/h2uRIr0fNpZbTGH5youi7MDRL2T.jpg",
+    "tmdbRating": 6.857,
+    "releaseDate": "2014-10-24"
+  },
+  {
+    "tmdbId": 34070,
+    "title": "Songs from the Second Floor",
+    "year": 2000,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/xMZieoxiQ1hb5zraZlhzcvU7MGN.jpg",
+    "tmdbRating": 7.055,
+    "releaseDate": "2000-10-06"
+  },
+  {
+    "tmdbId": 925,
+    "title": "Do the Right Thing",
+    "year": 1989,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/63rmSDPahrH7C1gEFYzRuIBAN9W.jpg",
+    "tmdbRating": 7.768,
+    "releaseDate": "1989-06-14"
+  },
+  {
+    "tmdbId": 25188,
+    "title": "The Last Picture Show",
+    "year": 1971,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/7NYePZc0lZrRomtmQsjOJMePTEb.jpg",
+    "tmdbRating": 7.605,
+    "releaseDate": "1971-10-03"
+  },
+  {
+    "tmdbId": 12516,
+    "title": "Dreams",
+    "year": 1990,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/ua17wrOrUjyqxuYmnUrmOVBMf4G.jpg",
+    "tmdbRating": 7.741,
+    "releaseDate": "1990-05-11"
+  },
+  {
+    "tmdbId": 17985,
+    "title": "Bleeder",
+    "year": 1999,
+    "posterUrl": "https://image.tmdb.org/t/p/w342/lNF10v7Db2zq53kBcwKGlVcd8Er.jpg",
+    "tmdbRating": 6.7,
+    "releaseDate": "1999-08-06"
   }
 ]
